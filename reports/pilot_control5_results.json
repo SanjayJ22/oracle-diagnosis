@@ -1,0 +1,161 @@
+{
+ "label": "pilot, underpowered per A10",
+ "features": [
+  "eth_ret_300",
+  "eth_vol_300",
+  "eth_gas_util_300",
+  "eth_gas_util_T",
+  "eth_absret_T",
+  "eth_absret_50",
+  "eth_cl_stale_a"
+ ],
+ "runs": {
+  "3_attacks|logit": {
+   "kind": "logit",
+   "n_pos": 3,
+   "n_neg": 35,
+   "auc": 0.5047619047619047,
+   "hm_se": 0.17638093524835027,
+   "hm_ci95": [
+    0.15905527167513822,
+    0.8504685378486713
+   ],
+   "hm_upper_one_sided95": 0.794908543245441,
+   "boot_upper_one_sided95": 0.8285714285714286,
+   "boot_ci95": [
+    0.0,
+    0.8571428571428572
+   ],
+   "se_null": 0.1759328876372492,
+   "expected_null_upper_bound": 0.7894096001632749,
+   "mde_auc": 0.8942590401456321,
+   "scores": {
+    "A-InverseFinance-14972419": 0.002408306987563785,
+    "A-ZunamiProtocol-17908950": 0.546875543387496,
+    "A-Makina-24273362": 0.6948544827974013
+   },
+   "perm_null_mean": 0.39466666666666667,
+   "perm_null_p95": 0.7719047619047621,
+   "perm_p_one_sided": 0.3654485049833887
+  },
+  "3_attacks|rf": {
+   "kind": "rf",
+   "n_pos": 3,
+   "n_neg": 35,
+   "auc": 0.3761904761904762,
+   "hm_se": 0.1572392026606406,
+   "hm_ci95": [
+    0.06800163897562062,
+    0.6843793134053318
+   ],
+   "hm_upper_one_sided95": 0.63484896456723,
+   "boot_upper_one_sided95": 0.7047619047619047,
+   "boot_ci95": [
+    0.06642857142857146,
+    0.8571428571428571
+   ],
+   "se_null": 0.1759328876372492,
+   "expected_null_upper_bound": 0.7894096001632749,
+   "mde_auc": 0.8942590401456321,
+   "scores": {
+    "A-InverseFinance-14972419": 0.0033333333333333335,
+    "A-ZunamiProtocol-17908950": 0.01,
+    "A-Makina-24273362": 0.14666666666666667
+   }
+  },
+  "5_attacks|logit": {
+   "kind": "logit",
+   "n_pos": 5,
+   "n_neg": 35,
+   "auc": 0.5828571428571429,
+   "hm_se": 0.14289691481075475,
+   "hm_ci95": [
+    0.3027791898280635,
+    0.8629350958862222
+   ],
+   "hm_upper_one_sided95": 0.8179225677208344,
+   "boot_upper_one_sided95": 0.7428571428571429,
+   "boot_ci95": [
+    0.3885714285714286,
+    0.7657142857142857
+   ],
+   "se_null": 0.13972762620115436,
+   "expected_null_upper_bound": 0.7298519451008989,
+   "mde_auc": 0.828652188509061,
+   "scores": {
+    "A-InverseFinance-14972419": 0.06099722049868296,
+    "A-ZunamiProtocol-17908950": 0.6289688939499584,
+    "A-Makina-24273362": 0.35842702709850727,
+    "A-HarvestFinance-11129474": 0.33872370265139307,
+    "A-UwULend-20061319": 0.35075239324125657
+   },
+   "perm_null_mean": 0.4572761904761906,
+   "perm_null_p95": 0.7888571428571429,
+   "perm_p_one_sided": 0.28903654485049834
+  },
+  "5_attacks|rf": {
+   "kind": "rf",
+   "n_pos": 5,
+   "n_neg": 35,
+   "auc": 0.6057142857142858,
+   "hm_se": 0.1428694316980318,
+   "hm_ci95": [
+    0.3256901995861435,
+    0.8857383718424281
+   ],
+   "hm_upper_one_sided95": 0.8407345008575481,
+   "boot_upper_one_sided95": 0.76,
+   "boot_ci95": [
+    0.4199285714285715,
+    0.7828571428571428
+   ],
+   "se_null": 0.13972762620115436,
+   "expected_null_upper_bound": 0.7298519451008989,
+   "mde_auc": 0.828652188509061,
+   "scores": {
+    "A-InverseFinance-14972419": 0.08333333333333333,
+    "A-ZunamiProtocol-17908950": 0.06333333333333334,
+    "A-Makina-24273362": 0.15666666666666668,
+    "A-HarvestFinance-11129474": 0.23666666666666666,
+    "A-UwULend-20061319": 0.09333333333333334
+   }
+  }
+ },
+ "sensitivity_without_eth_gas_util_T": {
+  "3_attacks|logit": {
+   "n_pos": 3,
+   "auc": 0.5523809523809523,
+   "hm_upper_one_sided95": 0.848024094074818,
+   "boot_upper_one_sided95": 0.8857142857142857
+  },
+  "3_attacks|rf": {
+   "n_pos": 3,
+   "auc": 0.4238095238095238,
+   "hm_upper_one_sided95": 0.6969126415250414,
+   "boot_upper_one_sided95": 0.6761904761904761
+  },
+  "5_attacks|logit": {
+   "n_pos": 5,
+   "auc": 0.5657142857142857,
+   "hm_upper_one_sided95": 0.8003827439334931,
+   "boot_upper_one_sided95": 0.7314285714285714
+  },
+  "5_attacks|rf": {
+   "n_pos": 5,
+   "auc": 0.5542857142857143,
+   "hm_upper_one_sided95": 0.7884884808107823,
+   "boot_upper_one_sided95": 0.7371428571428572
+  }
+ },
+ "gas_util_T_by_row": {
+  "attacks": {
+   "Inverse Finance": 0.9993584925000001,
+   "ZunamiProtocol": 0.5243878333333334,
+   "Makina": 0.2795811,
+   "Harvest Finance": 0.9986352507688637,
+   "UwU Lend": 0.9966379666666667
+  },
+  "benign_median": 0.7318011913789846,
+  "benign_share_above_0.99": 0.2
+ }
+}

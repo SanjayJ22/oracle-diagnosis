@@ -1,0 +1,1921 @@
+fs,cond,seed,model,fa,rec
+all features (baseline),clean,3000,BN,4,0.7777777777777778
+all features (baseline),clean,3000,RF,0,0.5555555555555556
+all features (baseline),clean,3000,XGB,0,0.8888888888888888
+all features (baseline),clean,3001,BN,4,0.7777777777777778
+all features (baseline),clean,3001,RF,0,0.5555555555555556
+all features (baseline),clean,3001,XGB,0,0.8888888888888888
+all features (baseline),clean,3002,BN,4,0.7777777777777778
+all features (baseline),clean,3002,RF,0,0.5555555555555556
+all features (baseline),clean,3002,XGB,0,0.8888888888888888
+all features (baseline),clean,3003,BN,4,0.7777777777777778
+all features (baseline),clean,3003,RF,0,0.5555555555555556
+all features (baseline),clean,3003,XGB,0,0.8888888888888888
+all features (baseline),clean,3004,BN,4,0.7777777777777778
+all features (baseline),clean,3004,RF,0,0.5555555555555556
+all features (baseline),clean,3004,XGB,0,0.8888888888888888
+all features (baseline),clean,3005,BN,4,0.7777777777777778
+all features (baseline),clean,3005,RF,0,0.5555555555555556
+all features (baseline),clean,3005,XGB,0,0.8888888888888888
+all features (baseline),clean,3006,BN,4,0.7777777777777778
+all features (baseline),clean,3006,RF,0,0.5555555555555556
+all features (baseline),clean,3006,XGB,0,0.8888888888888888
+all features (baseline),clean,3007,BN,4,0.7777777777777778
+all features (baseline),clean,3007,RF,0,0.5555555555555556
+all features (baseline),clean,3007,XGB,0,0.8888888888888888
+all features (baseline),clean,3008,BN,4,0.7777777777777778
+all features (baseline),clean,3008,RF,0,0.5555555555555556
+all features (baseline),clean,3008,XGB,0,0.8888888888888888
+all features (baseline),clean,3009,BN,4,0.7777777777777778
+all features (baseline),clean,3009,RF,0,0.5555555555555556
+all features (baseline),clean,3009,XGB,0,0.8888888888888888
+all features (baseline),clean,3010,BN,4,0.7777777777777778
+all features (baseline),clean,3010,RF,0,0.5555555555555556
+all features (baseline),clean,3010,XGB,0,0.8888888888888888
+all features (baseline),clean,3011,BN,4,0.7777777777777778
+all features (baseline),clean,3011,RF,0,0.5555555555555556
+all features (baseline),clean,3011,XGB,0,0.8888888888888888
+all features (baseline),clean,3012,BN,4,0.7777777777777778
+all features (baseline),clean,3012,RF,0,0.5555555555555556
+all features (baseline),clean,3012,XGB,0,0.8888888888888888
+all features (baseline),clean,3013,BN,4,0.7777777777777778
+all features (baseline),clean,3013,RF,0,0.5555555555555556
+all features (baseline),clean,3013,XGB,0,0.8888888888888888
+all features (baseline),clean,3014,BN,4,0.7777777777777778
+all features (baseline),clean,3014,RF,0,0.5555555555555556
+all features (baseline),clean,3014,XGB,0,0.8888888888888888
+all features (baseline),clean,3015,BN,4,0.7777777777777778
+all features (baseline),clean,3015,RF,0,0.5555555555555556
+all features (baseline),clean,3015,XGB,0,0.8888888888888888
+all features (baseline),clean,3016,BN,4,0.7777777777777778
+all features (baseline),clean,3016,RF,0,0.5555555555555556
+all features (baseline),clean,3016,XGB,0,0.8888888888888888
+all features (baseline),clean,3017,BN,4,0.7777777777777778
+all features (baseline),clean,3017,RF,0,0.5555555555555556
+all features (baseline),clean,3017,XGB,0,0.8888888888888888
+all features (baseline),clean,3018,BN,4,0.7777777777777778
+all features (baseline),clean,3018,RF,0,0.5555555555555556
+all features (baseline),clean,3018,XGB,0,0.8888888888888888
+all features (baseline),clean,3019,BN,4,0.7777777777777778
+all features (baseline),clean,3019,RF,0,0.5555555555555556
+all features (baseline),clean,3019,XGB,0,0.8888888888888888
+all features (baseline),random flips k=1,3050,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3050,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3050,XGB,0,0.8888888888888888
+all features (baseline),random flips k=1,3051,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3051,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3051,XGB,1,0.8888888888888888
+all features (baseline),random flips k=1,3052,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3052,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3052,XGB,0,0.7777777777777778
+all features (baseline),random flips k=1,3053,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3053,RF,0,0.6666666666666666
+all features (baseline),random flips k=1,3053,XGB,2,0.8888888888888888
+all features (baseline),random flips k=1,3054,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3054,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3054,XGB,0,0.8888888888888888
+all features (baseline),random flips k=1,3055,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3055,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3055,XGB,0,0.8888888888888888
+all features (baseline),random flips k=1,3056,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3056,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3056,XGB,1,0.8888888888888888
+all features (baseline),random flips k=1,3057,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3057,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3057,XGB,0,0.8888888888888888
+all features (baseline),random flips k=1,3058,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3058,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3058,XGB,2,0.8888888888888888
+all features (baseline),random flips k=1,3059,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3059,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3059,XGB,1,0.7777777777777778
+all features (baseline),random flips k=1,3060,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3060,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3060,XGB,0,0.7777777777777778
+all features (baseline),random flips k=1,3061,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3061,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3061,XGB,0,0.7777777777777778
+all features (baseline),random flips k=1,3062,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3062,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3062,XGB,0,0.7777777777777778
+all features (baseline),random flips k=1,3063,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3063,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3063,XGB,0,0.8888888888888888
+all features (baseline),random flips k=1,3064,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3064,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3064,XGB,1,0.7777777777777778
+all features (baseline),random flips k=1,3065,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3065,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3065,XGB,1,0.8888888888888888
+all features (baseline),random flips k=1,3066,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3066,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3066,XGB,0,0.7777777777777778
+all features (baseline),random flips k=1,3067,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3067,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3067,XGB,0,0.8888888888888888
+all features (baseline),random flips k=1,3068,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3068,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3068,XGB,1,0.8888888888888888
+all features (baseline),random flips k=1,3069,BN,4,0.7777777777777778
+all features (baseline),random flips k=1,3069,RF,0,0.5555555555555556
+all features (baseline),random flips k=1,3069,XGB,1,0.8888888888888888
+all features (baseline),random flips k=2,3100,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3100,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3100,XGB,0,0.8888888888888888
+all features (baseline),random flips k=2,3101,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3101,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3101,XGB,0,0.8888888888888888
+all features (baseline),random flips k=2,3102,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3102,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3102,XGB,0,0.8888888888888888
+all features (baseline),random flips k=2,3103,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3103,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3103,XGB,2,0.7777777777777778
+all features (baseline),random flips k=2,3104,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3104,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3104,XGB,3,0.7777777777777778
+all features (baseline),random flips k=2,3105,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3105,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3105,XGB,1,0.8888888888888888
+all features (baseline),random flips k=2,3106,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3106,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3106,XGB,0,0.8888888888888888
+all features (baseline),random flips k=2,3107,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3107,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3107,XGB,3,0.7777777777777778
+all features (baseline),random flips k=2,3108,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3108,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3108,XGB,0,0.7777777777777778
+all features (baseline),random flips k=2,3109,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3109,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3109,XGB,3,0.7777777777777778
+all features (baseline),random flips k=2,3110,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3110,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3110,XGB,0,0.8888888888888888
+all features (baseline),random flips k=2,3111,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3111,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3111,XGB,2,0.8888888888888888
+all features (baseline),random flips k=2,3112,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3112,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3112,XGB,1,0.7777777777777778
+all features (baseline),random flips k=2,3113,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3113,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3113,XGB,2,0.6666666666666666
+all features (baseline),random flips k=2,3114,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3114,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3114,XGB,1,0.8888888888888888
+all features (baseline),random flips k=2,3115,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3115,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3115,XGB,1,0.7777777777777778
+all features (baseline),random flips k=2,3116,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3116,RF,0,0.6666666666666666
+all features (baseline),random flips k=2,3116,XGB,1,0.7777777777777778
+all features (baseline),random flips k=2,3117,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3117,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3117,XGB,1,0.7777777777777778
+all features (baseline),random flips k=2,3118,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3118,RF,0,0.5555555555555556
+all features (baseline),random flips k=2,3118,XGB,0,0.8888888888888888
+all features (baseline),random flips k=2,3119,BN,4,0.7777777777777778
+all features (baseline),random flips k=2,3119,RF,0,0.7777777777777778
+all features (baseline),random flips k=2,3119,XGB,0,0.7777777777777778
+all features (baseline),random flips k=3,3150,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3150,RF,0,0.6666666666666666
+all features (baseline),random flips k=3,3150,XGB,3,0.7777777777777778
+all features (baseline),random flips k=3,3151,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3151,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3151,XGB,1,0.7777777777777778
+all features (baseline),random flips k=3,3152,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3152,RF,0,0.6666666666666666
+all features (baseline),random flips k=3,3152,XGB,2,0.7777777777777778
+all features (baseline),random flips k=3,3153,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3153,RF,0,0.6666666666666666
+all features (baseline),random flips k=3,3153,XGB,3,0.7777777777777778
+all features (baseline),random flips k=3,3154,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3154,RF,0,0.6666666666666666
+all features (baseline),random flips k=3,3154,XGB,3,0.7777777777777778
+all features (baseline),random flips k=3,3155,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3155,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3155,XGB,4,0.8888888888888888
+all features (baseline),random flips k=3,3156,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3156,RF,0,0.6666666666666666
+all features (baseline),random flips k=3,3156,XGB,3,0.6666666666666666
+all features (baseline),random flips k=3,3157,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3157,RF,0,0.6666666666666666
+all features (baseline),random flips k=3,3157,XGB,2,0.8888888888888888
+all features (baseline),random flips k=3,3158,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3158,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3158,XGB,0,0.7777777777777778
+all features (baseline),random flips k=3,3159,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3159,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3159,XGB,1,0.7777777777777778
+all features (baseline),random flips k=3,3160,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3160,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3160,XGB,2,0.8888888888888888
+all features (baseline),random flips k=3,3161,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3161,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3161,XGB,4,0.8888888888888888
+all features (baseline),random flips k=3,3162,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3162,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3162,XGB,3,0.8888888888888888
+all features (baseline),random flips k=3,3163,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3163,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3163,XGB,1,0.7777777777777778
+all features (baseline),random flips k=3,3164,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3164,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3164,XGB,4,0.8888888888888888
+all features (baseline),random flips k=3,3165,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3165,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3165,XGB,1,0.7777777777777778
+all features (baseline),random flips k=3,3166,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3166,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3166,XGB,1,0.7777777777777778
+all features (baseline),random flips k=3,3167,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3167,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3167,XGB,1,0.8888888888888888
+all features (baseline),random flips k=3,3168,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3168,RF,0,0.6666666666666666
+all features (baseline),random flips k=3,3168,XGB,0,0.8888888888888888
+all features (baseline),random flips k=3,3169,BN,4,0.7777777777777778
+all features (baseline),random flips k=3,3169,RF,0,0.5555555555555556
+all features (baseline),random flips k=3,3169,XGB,1,0.7777777777777778
+all features (baseline),targeted flips k=1,3050,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3050,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3050,XGB,0,0.8888888888888888
+all features (baseline),targeted flips k=1,3051,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3051,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3051,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3052,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3052,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3052,XGB,0,0.8888888888888888
+all features (baseline),targeted flips k=1,3053,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3053,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3053,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3054,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3054,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3054,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3055,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3055,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3055,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=1,3056,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3056,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3056,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3057,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3057,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3057,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3058,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3058,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3058,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=1,3059,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3059,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3059,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3060,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3060,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3060,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3061,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3061,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3061,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3062,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3062,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3062,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3063,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3063,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3063,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3064,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3064,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3064,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3065,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3065,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3065,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3066,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3066,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3066,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3067,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3067,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3067,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=1,3068,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3068,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3068,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=1,3069,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=1,3069,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=1,3069,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=2,3100,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3100,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3100,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3101,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3101,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3101,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3102,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3102,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3102,XGB,3,0.8888888888888888
+all features (baseline),targeted flips k=2,3103,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3103,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3103,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3104,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3104,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3104,XGB,3,0.8888888888888888
+all features (baseline),targeted flips k=2,3105,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3105,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3105,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=2,3106,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3106,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3106,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=2,3107,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3107,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3107,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3108,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3108,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3108,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3109,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3109,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3109,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3110,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3110,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3110,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=2,3111,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3111,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3111,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3112,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3112,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3112,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=2,3113,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3113,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3113,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3114,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3114,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3114,XGB,3,0.8888888888888888
+all features (baseline),targeted flips k=2,3115,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3115,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3115,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3116,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3116,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3116,XGB,2,0.8888888888888888
+all features (baseline),targeted flips k=2,3117,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3117,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3117,XGB,1,0.8888888888888888
+all features (baseline),targeted flips k=2,3118,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3118,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3118,XGB,0,0.8888888888888888
+all features (baseline),targeted flips k=2,3119,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=2,3119,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=2,3119,XGB,0,0.8888888888888888
+all features (baseline),targeted flips k=3,3150,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3150,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3150,XGB,3,0.7777777777777778
+all features (baseline),targeted flips k=3,3151,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3151,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3151,XGB,5,0.7777777777777778
+all features (baseline),targeted flips k=3,3152,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3152,RF,1,0.5555555555555556
+all features (baseline),targeted flips k=3,3152,XGB,5,0.7777777777777778
+all features (baseline),targeted flips k=3,3153,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3153,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3153,XGB,3,0.7777777777777778
+all features (baseline),targeted flips k=3,3154,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3154,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3154,XGB,5,0.7777777777777778
+all features (baseline),targeted flips k=3,3155,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3155,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3155,XGB,2,0.7777777777777778
+all features (baseline),targeted flips k=3,3156,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3156,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3156,XGB,6,0.7777777777777778
+all features (baseline),targeted flips k=3,3157,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3157,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3157,XGB,2,0.7777777777777778
+all features (baseline),targeted flips k=3,3158,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3158,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3158,XGB,7,0.7777777777777778
+all features (baseline),targeted flips k=3,3159,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3159,RF,1,0.5555555555555556
+all features (baseline),targeted flips k=3,3159,XGB,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3160,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3160,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3160,XGB,5,0.7777777777777778
+all features (baseline),targeted flips k=3,3161,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3161,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3161,XGB,8,0.7777777777777778
+all features (baseline),targeted flips k=3,3162,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3162,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3162,XGB,2,0.7777777777777778
+all features (baseline),targeted flips k=3,3163,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3163,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3163,XGB,5,0.7777777777777778
+all features (baseline),targeted flips k=3,3164,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3164,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3164,XGB,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3165,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3165,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3165,XGB,7,0.7777777777777778
+all features (baseline),targeted flips k=3,3166,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3166,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3166,XGB,5,0.7777777777777778
+all features (baseline),targeted flips k=3,3167,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3167,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3167,XGB,3,0.7777777777777778
+all features (baseline),targeted flips k=3,3168,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3168,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3168,XGB,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3169,BN,4,0.7777777777777778
+all features (baseline),targeted flips k=3,3169,RF,0,0.5555555555555556
+all features (baseline),targeted flips k=3,3169,XGB,3,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3000,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3000,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3000,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3001,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3001,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3001,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3002,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3002,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3002,XGB,1,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3003,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3003,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3003,XGB,1,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3004,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3004,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3004,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3005,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3005,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3005,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3006,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3006,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3006,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3007,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3007,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3007,XGB,1,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3008,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3008,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3008,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3009,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3009,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3009,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3010,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3010,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3010,XGB,1,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3011,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3011,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3011,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3012,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3012,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3012,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3013,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3013,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3013,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3014,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3014,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3014,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3015,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3015,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3015,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3016,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3016,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3016,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3017,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3017,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3017,XGB,0,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3018,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3018,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3018,XGB,1,0.8888888888888888
+all features (baseline),+ MEVBOTa47b,3019,BN,4,0.7777777777777778
+all features (baseline),+ MEVBOTa47b,3019,RF,0,0.5555555555555556
+all features (baseline),+ MEVBOTa47b,3019,XGB,0,0.8888888888888888
+"no ETH-context, venue only (reserve_skew, localization)",clean,3000,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3000,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3000,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3001,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3001,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3001,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3002,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3002,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3002,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3003,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3003,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3003,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3004,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3004,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3004,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3005,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3005,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3005,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3006,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3006,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3006,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3007,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3007,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3007,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3008,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3008,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3008,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3009,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3009,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3009,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3010,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3010,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3010,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3011,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3011,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3011,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3012,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3012,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3012,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3013,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3013,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3013,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3014,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3014,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3014,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3015,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3015,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3015,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3016,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3016,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3016,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3017,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3017,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3017,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3018,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3018,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3018,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",clean,3019,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",clean,3019,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",clean,3019,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3050,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3050,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3050,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3051,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3051,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3051,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3052,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3052,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3052,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3053,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3053,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3053,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3054,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3054,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3054,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3055,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3055,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3055,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3056,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3056,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3056,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3057,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3057,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3057,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3058,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3058,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3058,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3059,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3059,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3059,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3060,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3060,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3060,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3061,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3061,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3061,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3062,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3062,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3062,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3063,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3063,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3063,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3064,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3064,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3064,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3065,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3065,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3065,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3066,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3066,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3066,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3067,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3067,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3067,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3068,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3068,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3068,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3069,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3069,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=1,3069,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3100,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3100,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3100,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3101,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3101,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3101,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3102,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3102,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3102,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3103,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3103,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3103,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3104,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3104,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3104,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3105,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3105,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3105,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3106,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3106,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3106,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3107,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3107,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3107,XGB,5,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3108,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3108,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3108,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3109,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3109,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3109,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3110,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3110,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3110,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3111,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3111,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3111,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3112,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3112,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3112,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3113,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3113,RF,3,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3113,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3114,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3114,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3114,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3115,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3115,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3115,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3116,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3116,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3116,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3117,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3117,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3117,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3118,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3118,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3118,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3119,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3119,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=2,3119,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3150,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3150,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3150,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3151,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3151,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3151,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3152,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3152,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3152,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3153,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3153,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3153,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3154,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3154,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3154,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3155,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3155,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3155,XGB,4,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3156,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3156,RF,4,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3156,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3157,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3157,RF,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3157,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3158,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3158,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3158,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3159,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3159,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3159,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3160,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3160,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3160,XGB,7,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3161,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3161,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3161,XGB,7,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3162,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3162,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3162,XGB,6,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3163,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3163,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3163,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3164,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3164,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3164,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3165,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3165,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3165,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3166,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3166,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3166,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3167,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3167,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3167,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3168,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3168,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3168,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3169,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3169,RF,3,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",random flips k=3,3169,XGB,5,0.8888888888888888
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3050,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3050,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3050,XGB,1,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3051,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3051,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3051,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3052,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3052,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3052,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3053,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3053,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3053,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3054,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3054,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3054,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3055,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3055,RF,3,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3055,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3056,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3056,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3056,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3057,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3057,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3057,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3058,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3058,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3058,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3059,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3059,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3059,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3060,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3060,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3060,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3061,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3061,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3061,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3062,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3062,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3062,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3063,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3063,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3063,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3064,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3064,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3064,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3065,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3065,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3065,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3066,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3066,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3066,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3067,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3067,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3067,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3068,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3068,RF,3,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3068,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3069,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3069,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=1,3069,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3100,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3100,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3100,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3101,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3101,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3101,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3102,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3102,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3102,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3103,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3103,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3103,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3104,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3104,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3104,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3105,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3105,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3105,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3106,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3106,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3106,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3107,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3107,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3107,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3108,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3108,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3108,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3109,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3109,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3109,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3110,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3110,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3110,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3111,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3111,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3111,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3112,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3112,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3112,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3113,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3113,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3113,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3114,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3114,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3114,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3115,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3115,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3115,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3116,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3116,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3116,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3117,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3117,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3117,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3118,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3118,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3118,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3119,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3119,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=2,3119,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3150,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3150,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3150,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3151,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3151,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3151,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3152,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3152,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3152,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3153,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3153,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3153,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3154,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3154,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3154,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3155,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3155,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3155,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3156,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3156,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3156,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3157,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3157,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3157,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3158,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3158,RF,4,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3158,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3159,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3159,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3159,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3160,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3160,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3160,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3161,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3161,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3161,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3162,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3162,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3162,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3163,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3163,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3163,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3164,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3164,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3164,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3165,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3165,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3165,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3166,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3166,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3166,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3167,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3167,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3167,XGB,6,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3168,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3168,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3168,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3169,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3169,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",targeted flips k=3,3169,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3000,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3000,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3000,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3001,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3001,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3001,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3002,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3002,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3002,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3003,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3003,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3003,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3004,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3004,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3004,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3005,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3005,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3005,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3006,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3006,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3006,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3007,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3007,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3007,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3008,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3008,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3008,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3009,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3009,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3009,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3010,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3010,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3010,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3011,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3011,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3011,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3012,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3012,RF,2,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3012,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3013,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3013,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3013,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3014,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3014,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3014,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3015,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3015,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3015,XGB,4,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3016,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3016,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3016,XGB,5,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3017,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3017,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3017,XGB,3,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3018,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3018,RF,0,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3018,XGB,2,0.6666666666666666
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3019,BN,1,0.7777777777777778
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3019,RF,1,0.5555555555555556
+"no ETH-context, venue only (reserve_skew, localization)",+ MEVBOTa47b,3019,XGB,5,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3000,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3000,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3000,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3001,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3001,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3001,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3002,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3002,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3002,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3003,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3003,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3003,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3004,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3004,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3004,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3005,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3005,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3005,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3006,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3006,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3006,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3007,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3007,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3007,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3008,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3008,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3008,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3009,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3009,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3009,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3010,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3010,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3010,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3011,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3011,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3011,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3012,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3012,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3012,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3013,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3013,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3013,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3014,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3014,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3014,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3015,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3015,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3015,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3016,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3016,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3016,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3017,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3017,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3017,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3018,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3018,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3018,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3019,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3019,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",clean,3019,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3050,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3050,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3050,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3051,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3051,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3051,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3052,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3052,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3052,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3053,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3053,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3053,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3054,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3054,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3054,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3055,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3055,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3055,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3056,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3056,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3056,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3057,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3057,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3057,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3058,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3058,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3058,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3059,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3059,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3059,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3060,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3060,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3060,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3061,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3061,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3061,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3062,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3062,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3062,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3063,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3063,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3063,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3064,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3064,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3064,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3065,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3065,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3065,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3066,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3066,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3066,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3067,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3067,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3067,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3068,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3068,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3068,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3069,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3069,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=1,3069,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3100,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3100,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3100,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3101,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3101,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3101,XGB,5,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3102,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3102,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3102,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3103,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3103,RF,1,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3103,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3104,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3104,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3104,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3105,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3105,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3105,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3106,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3106,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3106,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3107,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3107,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3107,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3108,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3108,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3108,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3109,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3109,RF,1,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3109,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3110,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3110,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3110,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3111,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3111,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3111,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3112,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3112,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3112,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3113,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3113,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3113,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3114,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3114,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3114,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3115,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3115,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3115,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3116,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3116,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3116,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3117,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3117,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3117,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3118,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3118,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3118,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3119,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3119,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=2,3119,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3150,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3150,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3150,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3151,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3151,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3151,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3152,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3152,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3152,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3153,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3153,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3153,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3154,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3154,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3154,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3155,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3155,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3155,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3156,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3156,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3156,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3157,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3157,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3157,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3158,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3158,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3158,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3159,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3159,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3159,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3160,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3160,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3160,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3161,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3161,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3161,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3162,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3162,RF,1,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3162,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3163,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3163,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3163,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3164,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3164,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3164,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3165,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3165,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3165,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3166,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3166,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3166,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3167,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3167,RF,1,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3167,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3168,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3168,RF,1,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3168,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3169,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3169,RF,0,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",random flips k=3,3169,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3050,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3050,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3050,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3051,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3051,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3051,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3052,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3052,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3052,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3053,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3053,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3053,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3054,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3054,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3054,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3055,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3055,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3055,XGB,3,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3056,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3056,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3056,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3057,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3057,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3057,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3058,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3058,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3058,XGB,3,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3059,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3059,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3059,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3060,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3060,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3060,XGB,1,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3061,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3061,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3061,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3062,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3062,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3062,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3063,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3063,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3063,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3064,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3064,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3064,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3065,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3065,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3065,XGB,3,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3066,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3066,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3066,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3067,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3067,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3067,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3068,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3068,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3068,XGB,3,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3069,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3069,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=1,3069,XGB,2,0.8888888888888888
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3100,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3100,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3100,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3101,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3101,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3101,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3102,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3102,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3102,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3103,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3103,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3103,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3104,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3104,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3104,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3105,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3105,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3105,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3106,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3106,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3106,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3107,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3107,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3107,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3108,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3108,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3108,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3109,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3109,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3109,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3110,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3110,RF,1,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3110,XGB,4,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3111,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3111,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3111,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3112,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3112,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3112,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3113,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3113,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3113,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3114,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3114,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3114,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3115,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3115,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3115,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3116,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3116,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3116,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3117,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3117,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3117,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3118,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3118,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3118,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3119,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3119,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=2,3119,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3150,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3150,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3150,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3151,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3151,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3151,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3152,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3152,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3152,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3153,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3153,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3153,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3154,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3154,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3154,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3155,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3155,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3155,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3156,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3156,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3156,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3157,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3157,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3157,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3158,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3158,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3158,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3159,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3159,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3159,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3160,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3160,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3160,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3161,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3161,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3161,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3162,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3162,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3162,XGB,3,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3163,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3163,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3163,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3164,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3164,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3164,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3165,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3165,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3165,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3166,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3166,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3166,XGB,1,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3167,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3167,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3167,XGB,2,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3168,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3168,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3168,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3169,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3169,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",targeted flips k=3,3169,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3000,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3000,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3000,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3001,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3001,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3001,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3002,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3002,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3002,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3003,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3003,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3003,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3004,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3004,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3004,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3005,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3005,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3005,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3006,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3006,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3006,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3007,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3007,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3007,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3008,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3008,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3008,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3009,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3009,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3009,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3010,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3010,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3010,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3011,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3011,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3011,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3012,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3012,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3012,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3013,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3013,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3013,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3014,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3014,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3014,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3015,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3015,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3015,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3016,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3016,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3016,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3017,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3017,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3017,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3018,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3018,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3018,XGB,0,1.0
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3019,BN,4,0.7777777777777778
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3019,RF,0,0.6666666666666666
+"no ETH-context, extended (+price_dev, cross_venue_spread, dex_oracle_spread)",+ MEVBOTa47b,3019,XGB,0,1.0
+ETH-context only (6 BN-compatible features),clean,3000,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3000,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3000,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3001,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3001,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3001,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3002,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3002,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3002,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3003,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3003,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3003,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3004,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3004,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3004,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3005,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3005,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3005,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3006,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3006,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3006,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3007,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3007,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3007,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3008,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3008,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3008,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3009,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3009,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3009,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3010,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3010,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3010,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3011,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3011,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3011,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3012,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3012,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3012,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3013,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3013,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3013,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3014,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3014,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3014,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3015,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3015,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3015,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3016,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3016,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3016,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3017,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3017,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3017,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3018,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3018,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3018,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),clean,3019,BN,0,0.0
+ETH-context only (6 BN-compatible features),clean,3019,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),clean,3019,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3050,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3050,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3050,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=1,3051,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3051,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3051,XGB,4,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=1,3052,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3052,RF,1,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=1,3052,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=1,3053,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3053,RF,1,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=1,3053,XGB,4,0.7777777777777778
+ETH-context only (6 BN-compatible features),random flips k=1,3054,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3054,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3054,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3055,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3055,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3055,XGB,3,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=1,3056,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3056,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3056,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=1,3057,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3057,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3057,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3058,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3058,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3058,XGB,8,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=1,3059,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3059,RF,2,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=1,3059,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3060,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3060,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3060,XGB,3,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=1,3061,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3061,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3061,XGB,1,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=1,3062,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3062,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3062,XGB,3,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=1,3063,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3063,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3063,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3064,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3064,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3064,XGB,5,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3065,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3065,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3065,XGB,3,0.8888888888888888
+ETH-context only (6 BN-compatible features),random flips k=1,3066,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3066,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3066,XGB,5,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3067,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3067,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3067,XGB,5,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3068,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3068,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3068,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=1,3069,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=1,3069,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=1,3069,XGB,2,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3100,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3100,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3100,XGB,3,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=2,3101,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3101,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3101,XGB,8,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=2,3102,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3102,RF,1,0.2222222222222222
+ETH-context only (6 BN-compatible features),random flips k=2,3102,XGB,4,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=2,3103,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3103,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3103,XGB,6,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3104,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3104,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3104,XGB,8,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3105,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3105,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3105,XGB,2,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3106,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3106,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3106,XGB,2,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=2,3107,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3107,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3107,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3108,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3108,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3108,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=2,3109,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3109,RF,1,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=2,3109,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=2,3110,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3110,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3110,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3111,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3111,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3111,XGB,4,0.7777777777777778
+ETH-context only (6 BN-compatible features),random flips k=2,3112,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3112,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3112,XGB,5,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=2,3113,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3113,RF,1,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=2,3113,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3114,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3114,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3114,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3115,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3115,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3115,XGB,5,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3116,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3116,RF,0,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=2,3116,XGB,7,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3117,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3117,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3117,XGB,8,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3118,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3118,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3118,XGB,5,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=2,3119,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=2,3119,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=2,3119,XGB,8,0.7777777777777778
+ETH-context only (6 BN-compatible features),random flips k=3,3150,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3150,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3150,XGB,7,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3151,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3151,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3151,XGB,5,0.7777777777777778
+ETH-context only (6 BN-compatible features),random flips k=3,3152,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3152,RF,1,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3152,XGB,8,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3153,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3153,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3153,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3154,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3154,RF,1,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3154,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3155,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3155,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3155,XGB,10,0.7777777777777778
+ETH-context only (6 BN-compatible features),random flips k=3,3156,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3156,RF,2,0.2222222222222222
+ETH-context only (6 BN-compatible features),random flips k=3,3156,XGB,6,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3157,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3157,RF,2,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=3,3157,XGB,6,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3158,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3158,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3158,XGB,7,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3159,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3159,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3159,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3160,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3160,RF,2,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3160,XGB,4,0.7777777777777778
+ETH-context only (6 BN-compatible features),random flips k=3,3161,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3161,RF,1,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=3,3161,XGB,7,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3162,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3162,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3162,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3163,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3163,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3163,XGB,5,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3164,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3164,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3164,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3165,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3165,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3165,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),random flips k=3,3166,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3166,RF,2,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=3,3166,XGB,8,0.6666666666666666
+ETH-context only (6 BN-compatible features),random flips k=3,3167,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3167,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),random flips k=3,3167,XGB,7,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=3,3168,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3168,RF,1,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=3,3168,XGB,5,0.7777777777777778
+ETH-context only (6 BN-compatible features),random flips k=3,3169,BN,0,0.0
+ETH-context only (6 BN-compatible features),random flips k=3,3169,RF,1,0.4444444444444444
+ETH-context only (6 BN-compatible features),random flips k=3,3169,XGB,4,0.4444444444444444
+ETH-context only (6 BN-compatible features),targeted flips k=1,3050,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3050,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3050,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3051,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3051,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3051,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3052,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3052,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3052,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3053,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3053,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3053,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3054,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3054,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3054,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3055,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3055,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3055,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3056,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3056,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3056,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3057,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3057,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3057,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3058,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3058,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3058,XGB,3,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3059,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3059,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3059,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3060,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3060,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3060,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3061,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3061,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3061,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3062,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3062,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3062,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3063,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3063,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3063,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3064,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3064,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3064,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3065,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3065,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3065,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3066,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3066,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3066,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3067,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3067,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3067,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3068,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3068,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3068,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=1,3069,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=1,3069,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=1,3069,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3100,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3100,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3100,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3101,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3101,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3101,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3102,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3102,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3102,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3103,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3103,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3103,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3104,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3104,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3104,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3105,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3105,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3105,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3106,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3106,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3106,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3107,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3107,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3107,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3108,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3108,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3108,XGB,7,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3109,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3109,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3109,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3110,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3110,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3110,XGB,7,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3111,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3111,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3111,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3112,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3112,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3112,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3113,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3113,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3113,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3114,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3114,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3114,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3115,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3115,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3115,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3116,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3116,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3116,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3117,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3117,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3117,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3118,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3118,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3118,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=2,3119,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=2,3119,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=2,3119,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3150,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3150,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3150,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3151,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3151,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3151,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3152,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3152,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3152,XGB,2,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3153,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3153,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3153,XGB,6,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3154,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3154,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3154,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3155,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3155,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3155,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3156,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3156,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3156,XGB,7,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3157,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3157,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3157,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3158,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3158,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3158,XGB,7,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3159,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3159,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3159,XGB,4,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3160,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3160,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3160,XGB,7,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3161,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3161,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3161,XGB,8,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3162,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3162,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3162,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3163,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3163,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3163,XGB,8,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3164,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3164,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3164,XGB,9,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3165,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3165,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3165,XGB,8,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3166,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3166,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3166,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3167,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3167,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3167,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3168,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3168,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3168,XGB,3,0.6666666666666666
+ETH-context only (6 BN-compatible features),targeted flips k=3,3169,BN,0,0.0
+ETH-context only (6 BN-compatible features),targeted flips k=3,3169,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),targeted flips k=3,3169,XGB,5,0.6666666666666666
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3000,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3000,RF,3,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3000,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3001,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3001,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3001,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3002,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3002,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3002,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3003,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3003,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3003,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3004,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3004,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3004,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3005,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3005,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3005,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3006,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3006,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3006,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3007,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3007,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3007,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3008,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3008,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3008,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3009,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3009,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3009,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3010,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3010,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3010,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3011,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3011,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3011,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3012,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3012,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3012,XGB,2,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3013,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3013,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3013,XGB,2,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3014,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3014,RF,0,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3014,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3015,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3015,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3015,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3016,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3016,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3016,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3017,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3017,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3017,XGB,3,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3018,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3018,RF,2,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3018,XGB,4,0.5555555555555556
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3019,BN,0,0.0
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3019,RF,1,0.3333333333333333
+ETH-context only (6 BN-compatible features),+ MEVBOTa47b,3019,XGB,2,0.5555555555555556

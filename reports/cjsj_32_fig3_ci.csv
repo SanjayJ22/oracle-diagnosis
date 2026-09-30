@@ -1,0 +1,13 @@
+feature_set,model,mean,seed_lo,seed_hi,boot_lo,boot_hi,comb_lo,comb_hi,n_seeds
+all features,BN,14.0,14.0,14.0,0.0,35.0,0.0,33.024999999999864,1
+all features,RF,40.3,16.725,59.824999999999996,24.099166666666665,59.46666666666666,13.0,70.02499999999986,30
+all features,XGB (30 seeds),99.26666666666667,92.45,104.82499999999999,63.762499999999996,140.08416666666656,61.0,141.02499999999986,30
+all features,XGB (deterministic),108.0,108.0,108.0,70.0,149.02499999999986,69.0,151.0,1
+without market-context (venue only),BN,7.0,7.0,7.0,0.0,21.0,0.0,21.0,1
+without market-context (venue only),RF,1.1666666666666667,0.0,3.0,0.0,3.5,0.0,6.0,30
+without market-context (venue only),XGB (30 seeds),10.466666666666667,7.725,13.274999999999999,1.9333333333333333,22.266666666666666,2.0,23.0,30
+without market-context (venue only),XGB (deterministic),2.0,2.0,2.0,0.0,6.0,0.0,6.0,1
+market-context only,BN,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1
+market-context only,RF,101.8,90.725,111.0,63.751666666666665,146.90083333333334,62.0,147.0,30
+market-context only,XGB (30 seeds),131.2,125.45,136.55,84.76416666666667,179.90166666666667,83.0,181.0,30
+market-context only,XGB (deterministic),133.0,133.0,133.0,84.0,182.0,87.0,183.0,1

@@ -1,0 +1,89 @@
+group,training,model,config,n_features,eth_share,fa,caught
+A,all 24,BN,baseline,8,0.07936700974601713,14.0,87.0
+A,all 24,BN,venue only,2,0.0,7.0,87.0
+A,all 24,BN,extended (no ETH),5,0.0,14.0,87.0
+A,all 24,BN,ETH-context only,6,1.0,0.0,0.0
+A,all 24,RF,baseline,8,0.33952328801390497,46.0,84.0
+A,all 24,RF,venue only,2,0.0,3.0,80.0
+A,all 24,RF,extended (no ETH),5,0.0,0.0,86.0
+A,all 24,RF,ETH-context only,6,1.0,92.0,76.0
+A,all 24,XGB,baseline,8,0.3740798532962799,108.0,86.0
+A,all 24,XGB,venue only,2,0.0,2.0,85.0
+A,all 24,XGB,extended (no ETH),5,0.0,4.0,97.0
+A,all 24,XGB,ETH-context only,6,1.0,133.0,81.0
+A,verified M (9),BN,baseline,8,0.07156865850854394,12.0,23.0
+A,verified M (9),BN,venue only,2,0.0,7.0,23.0
+A,verified M (9),BN,extended (no ETH),5,0.0,13.0,23.0
+A,verified M (9),BN,ETH-context only,6,1.0,0.0,0.0
+A,verified M (9),RF,baseline,8,0.40218199132277044,0.0,16.0
+A,verified M (9),RF,venue only,2,0.0,1.0,16.0
+A,verified M (9),RF,extended (no ETH),5,0.0,0.0,22.0
+A,verified M (9),RF,ETH-context only,6,1.0,13.0,18.0
+A,verified M (9),XGB,baseline,8,0.30846986174583435,48.0,20.0
+A,verified M (9),XGB,venue only,2,0.0,2.0,21.0
+A,verified M (9),XGB,extended (no ETH),5,0.0,0.0,30.0
+A,verified M (9),XGB,ETH-context only,6,1.0,93.0,24.0
+B,all 24,RF,all 9 (ALW + congestion),9,0.3003228089887155,74.99999999999999,83.0
+B,all 24,XGB,all 9 (ALW + congestion),9,0.3717252016067505,110.0,88.0
+B,all 24,RF,drop heartbeat_elapsed,8,0.3046014445073872,0.0,84.4
+B,all 24,XGB,drop heartbeat_elapsed,8,0.34676995873451233,17.0,89.0
+B,all 24,RF,drop ref_realized_vol,8,0.3479302900015506,42.400000000000006,81.2
+B,all 24,XGB,drop ref_realized_vol,8,0.39975452423095703,103.0,88.0
+B,all 24,RF,drop temporal_deviation_persistence,8,0.3654279681860911,47.199999999999996,81.2
+B,all 24,XGB,drop temporal_deviation_persistence,8,0.3717252016067505,110.0,88.0
+B,all 24,RF,drop temporal_slope,8,0.31267448603966186,52.0,80.2
+B,all 24,XGB,drop temporal_slope,8,0.3480170667171478,106.0,88.0
+B,all 24,RF,drop temporal_step_change_count,8,0.35190509293341976,54.400000000000006,82.4
+B,all 24,XGB,drop temporal_step_change_count,8,0.3882888853549957,106.0,87.0
+B,all 24,RF,drop temporal_gap_trend,8,0.3575361678518488,49.400000000000006,82.39999999999999
+B,all 24,XGB,drop temporal_gap_trend,8,0.36204978823661804,105.0,87.0
+B,all 24,RF,drop all 4 temporal_*,5,0.23391045769962657,92.2,83.0
+B,all 24,XGB,drop all 4 temporal_*,5,0.31639352440834045,104.0,86.0
+B,all 24,RF,drop heartbeat + congestion + ref_realized_vol,6,0.19747376004302153,0.0,83.8
+B,all 24,XGB,drop heartbeat + congestion + ref_realized_vol,6,0.41207441687583923,27.0,84.0
+B,all 24,RF,venue + heartbeat_elapsed only,3,0.19266890127514982,75.2,82.0
+B,all 24,XGB,venue + heartbeat_elapsed only,3,0.18353605270385742,120.0,87.0
+B,all 24,RF,venue + congestion only,3,0.09564993291364178,0.0,80.0
+B,all 24,XGB,venue + congestion only,3,0.16895009577274323,5.0,87.0
+B,all 24,RF,venue + ref_realized_vol only,3,0.11800694798816225,0.0,84.6
+B,all 24,XGB,venue + ref_realized_vol only,3,0.22365672886371613,0.0,89.0
+B,all 24,RF,venue + temporal_deviation_persistence only,3,0.08674024942564063,0.2,84.4
+B,all 24,XGB,venue + temporal_deviation_persistence only,3,0.25557300448417664,9.0,86.0
+B,all 24,RF,venue + temporal_slope only,3,0.21377954729728932,0.0,84.4
+B,all 24,XGB,venue + temporal_slope only,3,0.3205953538417816,1.0,87.0
+B,all 24,RF,venue + temporal_step_change_count only,3,0.0844032740417176,0.0,80.0
+B,all 24,XGB,venue + temporal_step_change_count only,3,0.05019296333193779,6.0,85.0
+B,all 24,RF,venue + temporal_gap_trend only,3,0.0991166300457705,0.0,82.6
+B,all 24,XGB,venue + temporal_gap_trend only,3,0.10889949649572372,31.0,83.0
+B,verified M (9),RF,all 9 (ALW + congestion),9,0.3174453594826234,4.2,16.4
+B,verified M (9),XGB,all 9 (ALW + congestion),9,0.30380678176879883,48.0,20.0
+B,verified M (9),RF,drop heartbeat_elapsed,8,0.3419952174475011,0.0,11.999999999999998
+B,verified M (9),XGB,drop heartbeat_elapsed,8,0.2580511271953583,0.0,19.0
+B,verified M (9),RF,drop ref_realized_vol,8,0.3738553969251919,0.2,16.2
+B,verified M (9),XGB,drop ref_realized_vol,8,0.2775132656097412,48.0,20.0
+B,verified M (9),RF,drop temporal_deviation_persistence,8,0.40432401791214123,0.4,16.2
+B,verified M (9),XGB,drop temporal_deviation_persistence,8,0.30380678176879883,48.0,20.0
+B,verified M (9),RF,drop temporal_slope,8,0.386009164015336,0.6000000000000001,16.0
+B,verified M (9),XGB,drop temporal_slope,8,0.30380678176879883,48.0,20.0
+B,verified M (9),RF,drop temporal_step_change_count,8,0.40854335464762315,0.8,16.2
+B,verified M (9),XGB,drop temporal_step_change_count,8,0.30380678176879883,48.0,20.0
+B,verified M (9),RF,drop temporal_gap_trend,8,0.40075761916025915,0.4,16.0
+B,verified M (9),XGB,drop temporal_gap_trend,8,0.30380678176879883,48.0,20.0
+B,verified M (9),RF,drop all 4 temporal_*,5,0.2645706280546821,19.0,16.8
+B,verified M (9),XGB,drop all 4 temporal_*,5,0.30380678176879883,48.0,20.0
+B,verified M (9),RF,drop heartbeat + congestion + ref_realized_vol,6,0.20340155104564656,0.0,16.8
+B,verified M (9),XGB,drop heartbeat + congestion + ref_realized_vol,6,0.20306366682052612,9.0,23.0
+B,verified M (9),RF,venue + heartbeat_elapsed only,3,0.2110880196396172,4.0,16.4
+B,verified M (9),XGB,venue + heartbeat_elapsed only,3,0.3311827480792999,64.0,20.0
+B,verified M (9),RF,venue + congestion only,3,0.12647214613322247,0.0,14.0
+B,verified M (9),XGB,venue + congestion only,3,0.2065037041902542,2.0,23.0
+B,verified M (9),RF,venue + ref_realized_vol only,3,0.14148092943030754,0.0,18.6
+B,verified M (9),XGB,venue + ref_realized_vol only,3,0.2087421715259552,0.0,18.0
+B,verified M (9),RF,venue + temporal_deviation_persistence only,3,0.08148886836737673,0.0,19.2
+B,verified M (9),XGB,venue + temporal_deviation_persistence only,3,0.15691913664340973,10.0,23.0
+B,verified M (9),RF,venue + temporal_slope only,3,0.1944872298158252,0.0,19.0
+B,verified M (9),XGB,venue + temporal_slope only,3,0.2784021496772766,0.0,23.0
+B,verified M (9),RF,venue + temporal_step_change_count only,3,0.09673302359086518,0.0,13.0
+B,verified M (9),XGB,venue + temporal_step_change_count only,3,0.053304094821214676,2.0,23.0
+B,verified M (9),RF,venue + temporal_gap_trend only,3,0.11314267494887531,0.0,14.2
+B,verified M (9),XGB,venue + temporal_gap_trend only,3,0.139402374625206,0.0,19.0

@@ -1,0 +1,959 @@
+{
+ "Harvest": [
+  {
+   "block": 11129474,
+   "offset": 0,
+   "n_events": 6,
+   "peak_dev": 0.0011414840960571426,
+   "peak_at": "exch_u 2->1 sold=17,222,013",
+   "close_dev": 3.352973748285279e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 51666037.921518,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 4.662013633119533e-12
+  },
+  {
+   "block": 11129477,
+   "offset": 3,
+   "n_events": 6,
+   "peak_dev": 0.0011450606028822945,
+   "peak_at": "exch_u 2->1 sold=17,273,659",
+   "close_dev": 3.361246036361536e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 51820977.414555,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 6.386116200767618e-13
+  },
+  {
+   "block": 11129478,
+   "offset": 4,
+   "n_events": 6,
+   "peak_dev": 0.0011486461579965012,
+   "peak_at": "exch_u 2->1 sold=17,325,390",
+   "close_dev": 3.36951485265163e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 51976169.015808,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.2857396466154202e-11
+  },
+  {
+   "block": 11129480,
+   "offset": 6,
+   "n_events": 6,
+   "peak_dev": 0.001152240690455385,
+   "peak_at": "exch_u 2->1 sold=17,377,204",
+   "close_dev": 3.3778173178701863e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 52131612.460248,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 3.8824573049519576e-12
+  },
+  {
+   "block": 11129481,
+   "offset": 7,
+   "n_events": 6,
+   "peak_dev": 0.0011558442738935954,
+   "peak_at": "exch_u 2->1 sold=17,429,102",
+   "close_dev": 3.3861259545742574e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 52287306.752514005,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.3022840924888684e-12
+  },
+  {
+   "block": 11129483,
+   "offset": 9,
+   "n_events": 6,
+   "peak_dev": 0.0011594569216981103,
+   "peak_at": "exch_u 2->1 sold=17,481,085",
+   "close_dev": 3.3944433203541293e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 52443255.372549,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.6216449693163432e-12
+  },
+  {
+   "block": 11129484,
+   "offset": 10,
+   "n_events": 6,
+   "peak_dev": 0.0011630786331846556,
+   "peak_at": "exch_u 2->1 sold=17,533,150",
+   "close_dev": 3.4027709840819136e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 52599450.537993,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 5.936901744678698e-12
+  },
+  {
+   "block": 11129486,
+   "offset": 12,
+   "n_events": 6,
+   "peak_dev": 0.001166709417124687,
+   "peak_at": "exch_u 2->1 sold=17,585,299",
+   "close_dev": 3.4111136077141836e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 52755895.965534,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 6.638718694888192e-12
+  },
+  {
+   "block": 11129487,
+   "offset": 13,
+   "n_events": 6,
+   "peak_dev": 0.0011703492751200123,
+   "peak_at": "exch_u 2->1 sold=17,637,529",
+   "close_dev": 3.419474363993176e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 52912587.540564,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.3362153573345835e-12
+  },
+  {
+   "block": 11129490,
+   "offset": 16,
+   "n_events": 6,
+   "peak_dev": 0.0011739982490667435,
+   "peak_at": "exch_u 2->1 sold=17,689,842",
+   "close_dev": 3.4278413692792355e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 53069527.322165996,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.017185681498222e-12
+  },
+  {
+   "block": 11129491,
+   "offset": 17,
+   "n_events": 6,
+   "peak_dev": 0.0011776563772427002,
+   "peak_at": "exch_u 2->1 sold=17,742,238",
+   "close_dev": 3.4362023150643786e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 53226714.079734005,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.0975907596363838e-11
+  },
+  {
+   "block": 11129493,
+   "offset": 19,
+   "n_events": 6,
+   "peak_dev": 0.0011813235558674224,
+   "peak_at": "exch_u 2->1 sold=17,794,715",
+   "close_dev": 3.444610136076388e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 53384145.05856301,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 4.766347758487785e-12
+  },
+  {
+   "block": 11129494,
+   "offset": 20,
+   "n_events": 6,
+   "peak_dev": 0.0011849999018859682,
+   "peak_at": "exch_u 2->1 sold=17,847,273",
+   "close_dev": 3.4530164141948365e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 53541819.596852995,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.0555510993752043e-12
+  },
+  {
+   "block": 11129495,
+   "offset": 21,
+   "n_events": 6,
+   "peak_dev": 0.001188685430878072,
+   "peak_at": "exch_u 2->1 sold=17,899,913",
+   "close_dev": 3.4614201851526763e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 53699738.673168,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.3790383653562048e-11
+  },
+  {
+   "block": 11129497,
+   "offset": 23,
+   "n_events": 6,
+   "peak_dev": 0.0011923800722134265,
+   "peak_at": "exch_u 2->1 sold=17,952,633",
+   "close_dev": 3.469859639683875e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 53857900.171257,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.387664882514767e-12
+  },
+  {
+   "block": 11129498,
+   "offset": 24,
+   "n_events": 6,
+   "peak_dev": 0.0011960839556275143,
+   "peak_at": "exch_u 2->1 sold=18,005,435",
+   "close_dev": 3.4782796797805585e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 54016303.872189,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.0246878812896633e-11
+  },
+  {
+   "block": 11129499,
+   "offset": 25,
+   "n_events": 6,
+   "peak_dev": 0.0011997969703979661,
+   "peak_at": "exch_u 2->1 sold=18,058,316",
+   "close_dev": 3.4867374978131317e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 54174947.445705,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.2645324352095788e-11
+  },
+  {
+   "block": 11129500,
+   "offset": 26,
+   "n_events": 6,
+   "peak_dev": 0.0010417266792307094,
+   "peak_at": "exch_u 1->2 sold=10,554,172",
+   "close_dev": 5.429381389762041e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 31694179.942296,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.2919289457047112e-11
+  },
+  {
+   "block": 11129501,
+   "offset": 27,
+   "n_events": 6,
+   "peak_dev": 0.0010469301305399891,
+   "peak_at": "exch_u 1->2 sold=10,624,666",
+   "close_dev": 5.442697218411047e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 31905870.752090998,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 9.144778369107041e-12
+  },
+  {
+   "block": 11129502,
+   "offset": 28,
+   "n_events": 6,
+   "peak_dev": 0.0010521479673502743,
+   "peak_at": "exch_u 1->2 sold=10,695,543",
+   "close_dev": 5.455985699564199e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 32118715.300803,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 4.513836108056705e-12
+  },
+  {
+   "block": 11129503,
+   "offset": 29,
+   "n_events": 6,
+   "peak_dev": 0.0010573801407534813,
+   "peak_at": "exch_u 1->2 sold=10,766,805",
+   "close_dev": 5.469240420635391e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 32332716.579024002,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.227974057271765e-12
+  },
+  {
+   "block": 11129504,
+   "offset": 30,
+   "n_events": 6,
+   "peak_dev": 0.001062626653739726,
+   "peak_at": "exch_u 1->2 sold=10,838,454",
+   "close_dev": 5.482469044747318e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 32547878.439201,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 9.345294076647398e-12
+  },
+  {
+   "block": 11129505,
+   "offset": 31,
+   "n_events": 6,
+   "peak_dev": 0.0010678873611900917,
+   "peak_at": "exch_u 1->2 sold=10,910,490",
+   "close_dev": 5.495648483426207e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 32764201.846455,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.7123846095898502e-12
+  },
+  {
+   "block": 11129506,
+   "offset": 32,
+   "n_events": 6,
+   "peak_dev": 0.0010731623013313634,
+   "peak_at": "exch_u 1->2 sold=10,982,914",
+   "close_dev": 5.508799346153042e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 32981690.184015,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.1408074995390058e-12
+  },
+  {
+   "block": 11129507,
+   "offset": 33,
+   "n_events": 6,
+   "peak_dev": 0.001078451418503518,
+   "peak_at": "exch_u 1->2 sold=11,055,726",
+   "close_dev": 5.521916565262408e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 33200346.128868,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.111751396934166e-12
+  },
+  {
+   "block": 11129509,
+   "offset": 35,
+   "n_events": 6,
+   "peak_dev": 0.0010837546706766133,
+   "peak_at": "exch_u 1->2 sold=11,128,929",
+   "close_dev": 5.534998563554375e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 33420172.4661,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 5.205628032670053e-13
+  },
+  {
+   "block": 11129510,
+   "offset": 36,
+   "n_events": 6,
+   "peak_dev": 0.0010890720476428287,
+   "peak_at": "exch_u 1->2 sold=11,202,521",
+   "close_dev": 5.548053786892225e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 33641171.748072,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 5.134872406025607e-12
+  },
+  {
+   "block": 11129511,
+   "offset": 37,
+   "n_events": 6,
+   "peak_dev": 0.0010944034618165575,
+   "peak_at": "exch_u 1->2 sold=11,276,506",
+   "close_dev": 5.561070224033073e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 33863346.087974995,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 3.5436830023024094e-12
+  },
+  {
+   "block": 11129512,
+   "offset": 38,
+   "n_events": 6,
+   "peak_dev": 0.001099748916825235,
+   "peak_at": "exch_u 1->2 sold=11,350,882",
+   "close_dev": 5.574057893903613e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 34086698.385462,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 4.9900305295454e-12
+  },
+  {
+   "block": 11129514,
+   "offset": 40,
+   "n_events": 6,
+   "peak_dev": 0.001105108350346332,
+   "peak_at": "exch_u 1->2 sold=11,425,651",
+   "close_dev": 5.5870103238598624e-06,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S_u",
+   "flow": {
+    "USDT_sold_underlying": 34311231.034707,
+    "added": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 2.459081611940646e-12
+  }
+ ],
+ "UwU": [
+  {
+   "block": 20060993,
+   "offset": -326,
+   "n_events": 1,
+   "peak_dev": 2.110456187632742e-05,
+   "peak_at": "exch 1->0 sold=34,783",
+   "close_dev": 2.1104563374498707e-05,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.4981396704241067e-12
+  },
+  {
+   "block": 20061005,
+   "offset": -314,
+   "n_events": 4,
+   "peak_dev": 0.0009215724330480323,
+   "peak_at": "exch 0->1 sold=1,069,142",
+   "close_dev": 0.0005136502820371057,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 9.102473157639082e-12
+  },
+  {
+   "block": 20061006,
+   "offset": -313,
+   "n_events": 2,
+   "peak_dev": 0.00023695375139588302,
+   "peak_at": "exch 1->0 sold=358,372",
+   "close_dev": 0.00023695375331842162,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.9220831573232243e-12
+  },
+  {
+   "block": 20061038,
+   "offset": -281,
+   "n_events": 1,
+   "peak_dev": 0.00019230458895204154,
+   "peak_at": "exch 1->0 sold=319,977",
+   "close_dev": 0.0001923045957589107,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 6.805560415168195e-12
+  },
+  {
+   "block": 20061093,
+   "offset": -226,
+   "n_events": 1,
+   "peak_dev": 9.811835327763296e-05,
+   "peak_at": "exch 1->0 sold=161,965",
+   "close_dev": 9.81183596826052e-05,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 6.404343851139055e-12
+  },
+  {
+   "block": 20061199,
+   "offset": -120,
+   "n_events": 0,
+   "peak_dev": 0.0,
+   "peak_at": "pre-block",
+   "close_dev": 0.0,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 0.0
+  },
+  {
+   "block": 20061219,
+   "offset": -100,
+   "n_events": 1,
+   "peak_dev": 0.0003291514980446964,
+   "peak_at": "exch 0->1 sold=546,583",
+   "close_dev": 0.00032915151027131226,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.2230641574970954e-11
+  },
+  {
+   "block": 20061248,
+   "offset": -71,
+   "n_events": 1,
+   "peak_dev": 0.0001907258967925066,
+   "peak_at": "exch 1->0 sold=317,916",
+   "close_dev": 0.0001907259022812781,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 5.487724853213109e-12
+  },
+  {
+   "block": 20061306,
+   "offset": -13,
+   "n_events": 1,
+   "peak_dev": 0.00010452808349071587,
+   "peak_at": "exch 1->0 sold=172,939",
+   "close_dev": 0.00010452808941677513,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 5.925439886824014e-12
+  },
+  {
+   "block": 20061319,
+   "offset": 0,
+   "n_events": 5,
+   "peak_dev": 0.08571227883422027,
+   "peak_at": "exch 1->0 sold=27,858,598",
+   "close_dev": 8.678597843520478e-05,
+   "g1_fires": false,
+   "g2_fires": true,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 6.347068109486438e-08
+  },
+  {
+   "block": 20061322,
+   "offset": 3,
+   "n_events": 5,
+   "peak_dev": 0.08568852168010464,
+   "peak_at": "exch 1->0 sold=27,863,829",
+   "close_dev": 0.0007653335192603835,
+   "g1_fires": false,
+   "g2_fires": true,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 7.528590176760678e-08
+  },
+  {
+   "block": 20061323,
+   "offset": 4,
+   "n_events": 1,
+   "peak_dev": 0.00015059602937380804,
+   "peak_at": "exch 1->0 sold=253,073",
+   "close_dev": 0.00015059602940800668,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 3.419347276145813e-14
+  },
+  {
+   "block": 20061325,
+   "offset": 6,
+   "n_events": 4,
+   "peak_dev": 0.00018745141981519933,
+   "peak_at": "exch 1->0 sold=152,567",
+   "close_dev": 0.00018745142060853232,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 7.931842916510366e-13
+  },
+  {
+   "block": 20061326,
+   "offset": 7,
+   "n_events": 1,
+   "peak_dev": 1.3664370470794013e-05,
+   "peak_at": "exch 1->0 sold=22,896",
+   "close_dev": 1.3664370626411755e-05,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.5561561456981066e-13
+  },
+  {
+   "block": 20061334,
+   "offset": 15,
+   "n_events": 1,
+   "peak_dev": 6.708032714301916e-05,
+   "peak_at": "exch 1->0 sold=112,257",
+   "close_dev": 6.708032820058378e-05,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 1.0574936675577073e-12
+  },
+  {
+   "block": 20061339,
+   "offset": 20,
+   "n_events": 1,
+   "peak_dev": 3.21317950877925e-05,
+   "peak_at": "exch 1->0 sold=53,680",
+   "close_dev": 3.213179579456409e-05,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 7.067488772671768e-13
+  },
+  {
+   "block": 20061349,
+   "offset": 30,
+   "n_events": 1,
+   "peak_dev": 9.644578764683145e-05,
+   "peak_at": "exch 1->0 sold=160,679",
+   "close_dev": 9.644579071932453e-05,
+   "g1_fires": false,
+   "g2_fires": false,
+   "series_key": "S",
+   "flow": {
+    "USDT_sold_underlying": 0.0,
+    "added": [
+     0.0,
+     0.0
+    ]
+   },
+   "replay_close_relerr": 3.0721967771694968e-12
+  }
+ ]
+}

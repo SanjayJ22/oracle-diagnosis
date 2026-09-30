@@ -1,0 +1,440 @@
+[
+ {
+  "pool": "Harvest",
+  "T": 11129474,
+  "n_events_replayed": 6,
+  "flow": {
+   "USDT_sold_underlying": 51666037.921518,
+   "added": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "series": {
+   "S": {
+    "pre_price": 1.1289202352546412,
+    "peak_dev": 0.00114278857103612,
+    "peak_at": "exch_u 2->1 sold=17,222,013",
+    "peak_tx": "0x35f8d2f572fceaac9288e5d462117850ef2694786992a8c3f6d02612277b0877",
+    "peak_price": 1.1302103523971017,
+    "block_close_price_replayed": 1.1289164500221573,
+    "block_close_dev_replayed": 3.352967167822613e-06,
+    "block_close_price_chain_balances": 1.1289164484243337,
+    "block_close_dev_chain": 3.3543825234883804e-06,
+    "replay_vs_chain_close_relerr": 1.4153604134276317e-09,
+    "g1_fires": false,
+    "g2_fires": false,
+    "path": [
+     {
+      "ev": "pre-block",
+      "price": 1.1289202352546412,
+      "dev": 0.0
+     },
+     {
+      "ev": "exch_u 2->1 sold=17,222,013",
+      "price": 1.1302103523971017,
+      "dev": 0.00114278857103612
+     },
+     {
+      "ev": "exch_u 1->2 sold=17,239,235",
+      "price": 1.1289189724654247,
+      "dev": 1.1185814348012825e-06
+     },
+     {
+      "ev": "exch_u 2->1 sold=17,222,013",
+      "price": 1.1302090920954975,
+      "dev": 0.001141672193133739
+     },
+     {
+      "ev": "exch_u 1->2 sold=17,239,235",
+      "price": 1.1289177107215749,
+      "dev": 2.236236881521688e-06
+     },
+     {
+      "ev": "exch_u 2->1 sold=17,222,013",
+      "price": 1.130207833840708,
+      "dev": 0.0011405576283042872
+     },
+     {
+      "ev": "exch_u 1->2 sold=17,239,235",
+      "price": 1.1289164500221573,
+      "dev": 3.352967167822613e-06
+     }
+    ]
+   },
+   "S_u": {
+    "pre_price": 1.0006709277373511,
+    "peak_dev": 0.0011414840960571426,
+    "peak_at": "exch_u 2->1 sold=17,222,013",
+    "peak_tx": "0x35f8d2f572fceaac9288e5d462117850ef2694786992a8c3f6d02612277b0877",
+    "peak_price": 0.9995286777879522,
+    "block_close_price_replayed": 1.0006742829653676,
+    "block_close_dev_replayed": 3.3529784103145437e-06,
+    "block_close_price_chain_balances": 1.0006742829607025,
+    "block_close_dev_chain": 3.352973748285279e-06,
+    "replay_vs_chain_close_relerr": 4.662013633119533e-12,
+    "g1_fires": false,
+    "g2_fires": false,
+    "path": [
+     {
+      "ev": "pre-block",
+      "price": 1.0006709277373511,
+      "dev": 0.0
+     },
+     {
+      "ev": "exch_u 2->1 sold=17,222,013",
+      "price": 0.9995286777879522,
+      "dev": 0.0011414840960571426
+     },
+     {
+      "ev": "exch_u 1->2 sold=17,239,235",
+      "price": 1.0006720470705255,
+      "dev": 1.1185826862201454e-06
+     },
+     {
+      "ev": "exch_u 2->1 sold=17,222,013",
+      "price": 0.9995297923671966,
+      "dev": 0.001140370264113434
+     },
+     {
+      "ev": "exch_u 1->2 sold=17,239,235",
+      "price": 1.0006731654795902,
+      "dev": 2.2362418823577333e-06
+     },
+     {
+      "ev": "exch_u 2->1 sold=17,222,013",
+      "price": 0.9995309051387693,
+      "dev": 0.0011392582386295113
+     },
+     {
+      "ev": "exch_u 1->2 sold=17,239,235",
+      "price": 1.0006742829653676,
+      "dev": 3.3529784103145437e-06
+     }
+    ]
+   }
+  },
+  "engine_validation": [
+   {
+    "block_offset": -1,
+    "engine": 1.1289202352546412,
+    "chain": 1.128920568227291,
+    "chain_ref": "get_dy/(1-fee)",
+    "relerr": 2.9494781036513274e-07
+   },
+   {
+    "block_offset": 0,
+    "engine": 1.1289164484243337,
+    "chain": 1.1289165666266507,
+    "chain_ref": "get_dy/(1-fee)",
+    "relerr": 1.047042098058721e-07
+   }
+  ],
+  "balance_replay_relerr_at_close": [
+   0.0,
+   6.643874978878424e-12,
+   6.694062472873313e-12,
+   0.0
+  ]
+ },
+ {
+  "pool": "UwU",
+  "T": 20061319,
+  "n_events_replayed": 5,
+  "flow": {
+   "USDT_sold_underlying": 0.0,
+   "added": [
+    0.0,
+    0.0
+   ]
+  },
+  "series": {
+   "S": {
+    "pre_price": 1.0005692588809731,
+    "peak_dev": 0.08571227883422027,
+    "peak_at": "exch 1->0 sold=27,858,598",
+    "peak_tx": "0x242a0fb4fde9de0dc2fd42e8db743cbc197ffa2bf6a036ba0bba303df296408b",
+    "peak_price": 1.0863303301911282,
+    "block_close_price_replayed": 1.0006561577754212,
+    "block_close_dev_replayed": 8.684945462466481e-05,
+    "block_close_price_chain_balances": 1.0006560942630973,
+    "block_close_dev_chain": 8.678597843520478e-05,
+    "replay_vs_chain_close_relerr": 6.347068109486438e-08,
+    "g1_fires": false,
+    "g2_fires": true,
+    "path": [
+     {
+      "ev": "pre-block",
+      "price": 1.0005692588809731,
+      "dev": 0.0
+     },
+     {
+      "ev": "exch 0->1 sold=14,886,913",
+      "price": 0.9276755934622436,
+      "dev": 0.07285219366048994
+     },
+     {
+      "ev": "exch 1->0 sold=27,858,598",
+      "price": 1.0863303301911282,
+      "dev": 0.08571227883422027
+     },
+     {
+      "ev": "exch 0->1 sold=13,004,083",
+      "price": 1.0005423743319188,
+      "dev": 2.6869253493130732e-05
+     },
+     {
+      "ev": "exch 1->0 sold=192,649",
+      "price": 1.0006595031604235,
+      "dev": 9.019293632036742e-05
+     },
+     {
+      "ev": "exch 0->1 sold=5,476",
+      "price": 1.0006561577754212,
+      "dev": 8.684945462466481e-05
+     }
+    ]
+   }
+  },
+  "engine_validation": [
+   {
+    "block_offset": -1,
+    "engine": 1.0005692588809731,
+    "chain": 1.0005692588809731,
+    "chain_ref": "1/get_p(0)",
+    "relerr": 0.0
+   },
+   {
+    "block_offset": 0,
+    "engine": 1.0006560942630973,
+    "chain": 1.0006560942630973,
+    "chain_ref": "1/get_p(0)",
+    "relerr": 0.0
+   }
+  ],
+  "balance_replay_relerr_at_close": [
+   3.1998608231267734e-09,
+   1.2494823239294548e-05
+  ]
+ },
+ {
+  "pool": "Zunami",
+  "T": 17908950,
+  "n_events_replayed": 2,
+  "flow": {
+   "USDT_sold_underlying": 0.0,
+   "added": [
+    0.0,
+    0.0
+   ]
+  },
+  "series": {
+   "S": {
+    "pre_price": 0.9971430094676473,
+    "peak_dev": 279.93913206519335,
+    "peak_at": "exch 1->0 sold=5,746,896",
+    "peak_tx": "0x0788ba222970c7c68a738b0e08fb197e669e61f9b226ceec4cab9b85abe8cceb",
+    "peak_price": 280.13649162471575,
+    "block_close_price_replayed": 0.00045860048237138105,
+    "block_close_dev_replayed": 0.999540085546389,
+    "block_close_price_chain_balances": 0.00045860048237134586,
+    "block_close_dev_chain": 0.999540085546389,
+    "replay_vs_chain_close_relerr": 7.671679784380636e-14,
+    "g1_fires": true,
+    "g2_fires": true,
+    "path": [
+     {
+      "ev": "pre-block",
+      "price": 0.9971430094676473,
+      "dev": 0.0
+     },
+     {
+      "ev": "exch 1->0 sold=5,746,896",
+      "price": 280.13649162471575,
+      "dev": 279.93913206519335
+     },
+     {
+      "ev": "exch 0->1 sold=14,158,425",
+      "price": 0.00045860048237138105,
+      "dev": 0.999540085546389
+     }
+    ]
+   }
+  },
+  "engine_validation": [
+   {
+    "block_offset": -1,
+    "engine": 0.9971430094676473,
+    "chain": 0.9958151053170069,
+    "chain_ref": "get_dy/(1-fee)",
+    "relerr": 0.001333484643434598
+   },
+   {
+    "block_offset": 0,
+    "engine": 0.00045860048237134586,
+    "chain": 0.0004587446683385464,
+    "chain_ref": "get_dy/(1-fee)",
+    "relerr": 0.0003143054887651631
+   }
+  ],
+  "balance_replay_relerr_at_close": [
+   0.0,
+   6.267999794229419e-14
+  ]
+ },
+ {
+  "pool": "Makina",
+  "T": 24273362,
+  "n_events_replayed": 8,
+  "flow": {
+   "USDT_sold_underlying": 0.0,
+   "added": [
+    200000000.0,
+    0.0
+   ]
+  },
+  "series": {
+   "S": {
+    "pre_price": 1.0010072884793504,
+    "peak_dev": 61.876451758697975,
+    "peak_at": "remove_one coin0 98,809,789",
+    "peak_tx": "0x569733b8016ef9418f0b6bde8c14224d9e759e79301499908ecbcd956a0651f5",
+    "peak_price": 62.93978648417694,
+    "block_close_price_replayed": 62.93978648417694,
+    "block_close_dev_replayed": 61.876451758697975,
+    "block_close_price_chain_balances": 101.35496997174458,
+    "block_close_dev_chain": 100.2529790124854,
+    "replay_vs_chain_close_relerr": 0.37901627811913813,
+    "g1_fires": true,
+    "g2_fires": true,
+    "path": [
+     {
+      "ev": "pre-block",
+      "price": 1.0010072884793504,
+      "dev": 0.0
+     },
+     {
+      "ev": "add_liquidity 100,000,000,0",
+      "price": 0.9869792754489956,
+      "dev": 0.01401389699336262
+     },
+     {
+      "ev": "exch 0->1 sold=10,000,000",
+      "price": 0.7101346966499797,
+      "dev": 0.2905798940497635
+     },
+     {
+      "ev": "exch 1->0 sold=9,215,229",
+      "price": 0.9875931500535385,
+      "dev": 0.01340064011540768
+     },
+     {
+      "ev": "remove_one coin0 100,666,132",
+      "price": 1.0072508029451563,
+      "dev": 0.006237231774096869
+     },
+     {
+      "ev": "add_liquidity 100,000,000,0",
+      "price": 0.9877333012779893,
+      "dev": 0.013260629921612112
+     },
+     {
+      "ev": "exch 0->1 sold=10,000,000",
+      "price": 0.7175961368728373,
+      "dev": 0.28312596208669816
+     },
+     {
+      "ev": "exch 1->0 sold=9,235,450",
+      "price": 0.9883432627469771,
+      "dev": 0.012651282241522345
+     },
+     {
+      "ev": "remove_one coin0 98,809,789",
+      "price": 62.93978648417694,
+      "dev": 61.876451758697975
+     }
+    ]
+   }
+  },
+  "engine_validation": [
+   {
+    "block_offset": -1,
+    "engine": 1.0010072884793504,
+    "chain": 1.0010298546324545,
+    "chain_ref": "1/get_p(0)",
+    "relerr": 2.2542937155883e-05
+   },
+   {
+    "block_offset": 0,
+    "engine": 101.35496997174458,
+    "chain": 103.69789682028987,
+    "chain_ref": "1/get_p(0)",
+    "relerr": 0.022593774033870903
+   }
+  ],
+  "balance_replay_relerr_at_close": [
+   0.3273098772949402,
+   0.00019409122009880541
+  ]
+ },
+ {
+  "pool": "Inverse",
+  "T": 14972419,
+  "n_events_replayed": 5,
+  "series": {
+   "S": {
+    "pre_price": 979.6185623150515,
+    "peak_dev": 1.8904219439418126,
+    "peak_at": "exch 1->0 sold=26,775",
+    "peak_tx": "0x958236266991bc3fe3b77feaacea120f172c0708ad01c7a715b255f218f9313c",
+    "peak_price": 2831.5109892081546,
+    "block_close_price_replayed": 991.3311882577149,
+    "block_close_dev_replayed": 0.011956312786666607,
+    "block_close_price_chain_balances": 991.3311882577149,
+    "block_close_dev_chain": 0.011956312786666607,
+    "replay_vs_chain_close_relerr": 0.0,
+    "g1_fires": true,
+    "g2_fires": true,
+    "path": [
+     {
+      "ev": "pre-block",
+      "price": 979.6185623150515,
+      "dev": 0.0
+     },
+     {
+      "ev": "add_liquidity 0,225,0",
+      "price": 979.9433577489409,
+      "dev": 0.0003315529598805137
+     },
+     {
+      "ev": "exch 1->0 sold=26,775",
+      "price": 2831.5109892081546,
+      "dev": 1.8904219439418126
+     },
+     {
+      "ev": "exch 0->1 sold=75,403,376",
+      "price": 991.7372453561595,
+      "dev": 0.012370818099310997
+     },
+     {
+      "ev": "exch 0->1 sold=10,000,000",
+      "price": 992.3638723030001,
+      "dev": 0.013010482322659044
+     },
+     {
+      "ev": "exch 1->0 sold=163",
+      "price": 991.3311882577149,
+      "dev": 0.011956312786666607
+     }
+    ]
+   }
+  },
+  "balance_replay_relerr_at_close": [
+   0.0,
+   2.2036370547685056e-16,
+   0.0
+  ]
+ }
+]

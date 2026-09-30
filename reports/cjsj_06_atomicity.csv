@@ -1,0 +1,25 @@
+incident,category,verified_M,T,sender,target,status,logs,gas,flash,class100,class20,class100_raw,n_same_target_success,n_repeat_before,n_repeat_after,n_reverted,span
+Harvest Finance,M,True,11129474,0xf224ab004461540778a914ea397c589b677e27bb,0xc6028a9fa486f52efd2b95b949ac630d287ce0af,0x1,86,9895111,none detected,multi-block,multi-block,multi-block,32,0,17,0,+3..+26
+Cream Finance,M,True,13499798,0x24354d31bc9d90f62fe5f2454709c32049cf866b,0x961d2b694d9097f35cfffa363ef98823928a330d,0x1,164,14936857,"Aave V2, Balancer/Maker",single-tx,single-tx,multi-block,6,0,0,1,-
+Indexed Finance,A,False,13417949,0xba5ed1488be60ba2facc6b66c6d6f0befba22ebe,0x277e851587eb5da22b52a10f4788576e68150277,0x1,464,6262558,none detected,single-tx,single-tx,single-tx,0,0,0,0,-
+Inverse Finance,M,True,14972419,0x7b792e49f640676b3706d666075e903b3a4deec6,0xf508c58ce37ce40a40997c715075172691f92e2d,0x1,54,2505709,Aave V2,single-tx,single-tx,multi-block,2,0,0,0,-
+UwU Lend,M,True,20061319,0x841ddf093f5188989fa1524e7b893de64b421f47,(deployment),0x1,561,18097758,"Aave V2, Aave V3, Balancer/Maker, Uniswap V3",multi-block,multi-block,multi-block,2,0,2,0,+3..+33
+MonoX Finance,A,False,13715026,0xecbe385f78041895c311070f344b55bfaa953258,0xf079d7911c13369e7fd85607970036d2883afcfd,0x1,296,4684892,none detected,single-tx,single-tx,single-tx,0,0,0,0,-
+MEVBOTa47b,K,False,15741333,0x1dc90b5b7fe74715c2056e5158641c0af7d28865,0x4b77c789fa35b54dacb5f6bb2daaa01554299d6c,0x1,19,512472,Balancer/Maker,single-tx,single-tx,single-tx,0,0,0,0,-
+Conic Finance 02,O,False,17743470,0xb6369f59fc24117b16742c9dfe064894d03b3b80,0x486cb3f61771ed5483691dd65f4186da9e37c68e,0x1,593,21658306,Balancer/Maker,single-tx,single-tx,multi-block,1,0,0,1,-
+ZunamiProtocol,M,True,17908950,0x5f4c21c9bb73c8b4a296cc256c0cde324db146df,0xa21a2b59d80dc42d332f778cbb9ea127100e5d75,0x1,87,5745078,"Balancer/Maker, Uniswap V3",single-tx,single-tx,multi-block,1,0,0,0,-
+CompoundUni,M,False,19290921,0xe000008459b74a91e306a47c808061dfa372000e,0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12,0x1,27,980821,Balancer/Maker,multi-block,multi-block,multi-block,5,0,5,0,+3..+30
+CurveLlamaLend,M,True,24566937,0x33a0aab2642c78729873786e5903cc30f9a94be2,0xd8e8544e0c808641b9b89dfb285b5655bd5b6982,0x1,298,11778487,none detected,single-tx,single-tx,multi-block,2,0,0,0,-
+ResupplyFi,M,True,22785461,0x6d9f6e900ac2ce6770fd9f04f98b7b0fc355e2ea,(deployment),0x1,54,5948485,none detected,single-tx,single-tx,single-tx,0,0,0,0,-
+BalancerV2,R,False,23717397,0x506d1f9efe24f0d47853adca907eb8d89ae03207,(deployment),0x1,361,28348674,none detected,single-tx,single-tx,single-tx,0,0,0,0,-
+Makina,M,True,24273362,0x935bfb495e33f74d2e9735df1da66ace442ede48,0x935bfb495e33f74d2e9735df1da66ace442ede48,0x1,100,4709593,Aave V3,single-tx,single-tx,single-tx,0,0,0,0,-
+TOPBPool,K,False,25279892,0xff8ef7bc455a57e5893232203052ce0232b39fa2,0x25c68c44a96518294f5b47d758f98309c6729a21,0x1,154,2902978,none detected,single-tx,single-tx,multi-block,1,0,0,0,-
+WiseLending,O,False,18342121,0xc0ffeebabe5d496b2dde509f9fa189c25cf29671,0x3aa228a80f50763045bdfc45012da124bd0a6809,0x1,136,8825077,Balancer/Maker,single-tx,single-tx,single-tx,0,0,0,0,-
+BalancerV1BPool,R,False,25872274,0x338c7ec9befbb451d66fd8a468c32184f5689a41,0x9caa8d0e44b22f50057d2f4ce0d1446529e11be3,0x1,1496,11377828,"Aave V3, Uniswap V3",single-tx,single-tx,multi-block,1,0,0,0,-
+AjnaFinance,A,False,25854888,0x6f2f5236b10fe7162da077a2779f8b5f04b7827e,0x80ad419c4783a09252ad6a576ce059f51cc53d47,0x1,30,1384486,Balancer/Maker,single-tx,single-tx,single-tx,0,0,0,0,-
+BalancerBoostedPool2023,M,True,18004652,0xed187f37e5ad87d5b3b2624c01de56c5862b7a9b,0x2100dcd8758ab8b89b9b545a43a1e47e8e2944f0,0x1,47,1813682,Aave V3,single-tx,single-tx,single-tx,0,0,0,0,-
+DRLVaultV3,M,False,23769387,0xc0ffeebabe5d496b2dde509f9fa189c25cf29671,0xe08d97e151473a848c3d9ca3f323cb720472d015,0x1,26,9610520,none detected,single-tx,single-tx,multi-tx same block,1,0,0,0,-
+EFLeverVault,A,False,15746342,0xdf31f4c8dc9548eb4c416af26dc396a25fde4d5f,0x140cca423081ed0366765f18fc9f5ed299699388,0x1,57,2544381,Balancer/Maker,single-tx,single-tx,single-tx,0,0,0,0,-
+SecuredFi,M,False,25914192,0xc0ffeebabe5d496b2dde509f9fa189c25cf29671,0xe08d97e151473a848c3d9ca3f323cb720472d015,0x1,74,10824964,Balancer/Maker,single-tx,single-tx,multi-block,3,0,0,0,-
+ThetanutsIndexVault,A,False,25323329,0x30498e4466789e534c72e03b52a16c978655b41e,(deployment),0x1,429,3717258,Aave V2,single-tx,single-tx,single-tx,0,0,0,0,-
+USM,R,False,25716150,0xb92b2e47680c89da8f951b8963ef469f461a50fc,0x5a5e29ba89663a3558273354e990426f3cac7de7,0x1,201,5803188,none detected,single-tx,single-tx,single-tx,0,0,0,0,-

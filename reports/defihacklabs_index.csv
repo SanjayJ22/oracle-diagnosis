@@ -1,0 +1,876 @@
+date,name,desc,lost,chain,year,category
+20260926,DAOstack,permissionless newOrganization lets an attacker hijack an existing Reputation contract and drain the Avatar,"4.025 ETH (full Genesis Alpha treasury); attacker minted 20,000 REP against the victim's real Reputation contract (supply 9,738.6 to 29,738.6, ~67% majority after a 200 REP GenesisProtocol vote-cost burn) and used it to self-install as a full-permission scheme",mainnet,2026,access control / missing check
+20260921,DoinGud,acceptOffer replay via missing offer cleanup on the amount=0 path,"35,380.154566 USDC net (two byte-identical acceptOffer calls each paid out 35,486.935717 USDC from escrow; funded via a UniV2 flash swap, repaid 35,593.716868 USDC)",polygon,2026,access control / missing check
+20260921,GaslessReservoirEnabler,erc20WithTransfersAndExecute lets a whitelisted module run unvalidated transferFrom calldata,"8.72 WETH (~$23.8K) across 466 victims with standing approvals to the Enabler; PoC reproduces 3 victims, 2.3546 WETH (~$6.4K, ~27% of the WETH-leg loss)",polygon,2026,logic / other
+20260921,InternetToken,permissionless swapV3 with caller-supplied pool lets a fake callback mint INT arbitrarily,"764,145,702 INT + 5.846988 WETH (attacker minted 925.41M INT total, dumped 161.27M into the real INT/WETH pool for the WETH, reproduced to the wei)",base,2026,access control / missing check
+20260918,Likwid,missing pairDelta update in leverage=0 margin borrow freezes AMM quote,74.31 BNB (reproduced to within 3 wei),bsc,2026,logic / other
+20260916,Startale,transient storage init flag outlives the constructor and lets anyone reinitialize an ERC7579 account and drain it,"427.551160 USDC drained in this batch tx (32.555561 USDC reproduced across 3 of 23 victim accounts; ~$2,876 USDC+USDT aggregate across 41 known batches)",mainnet,2026,access control / missing check
+20260916,Flamincome,permissionless Convex stakeFor inflates Strategy NAV and lets VaultYUSDT overpay on withdrawAll,~$345.9K USDT net attacker profit (gross Strategy loss ~$595K in aUSDT+USDT),mainnet,2026,price/oracle/rate manipulation
+20260916,PrimeFinance,permissionless stale signed oracle report overwrite drains lending pool,~425.5 WHYPE (~$33.4K) drained from the lending pool reserve,unknown,2026,price/oracle/rate manipulation
+20260916,Nimiq,"GSN forwarder skips signature check, relying solely on attacker-chosen paymaster","~$50,463.79 (USDC, USDT0, USDC.e drained from a swap-liquidity wallet's standing approvals)",polygon,2026,access control / missing check
+20260915,RsETHSafeModule,nested self-referential multicall authorization bypass drains Gnosis Safe via DELEGATECALL,"2,900 aEthrsETH (~$7.8M gross; 2,882.37 rsETH / ~$7.73M net to the MEV frontrunner)",mainnet,2026,access control / missing check
+20260915,BonfireSwap,missing caller authorization lets anyone force-sell any approved holder's tokens,~66 BNB (~$47-50K); 58.78 BNB reproduced from a 5-victim subset (~98.7% of tokens drained),bsc,2026,access control / missing check
+20260912,SpiralHookV2,Uniswap V4 spot-price borrow plus tx.origin-keyed same-block guard bypass,~10.70728 ETH (reproduced exact to the wei),mainnet,2026,access control / missing check
+20260912,YamFinance,dormant-DAO quorum governance takeover drains legacy UMA farming contracts,~$121K (48.085 WETH + 763.101 UMA),mainnet,2026,governance / key / rugpull
+20260911,ORB,leveraged pool buyout + refund-before-sell reentrancy drains burnLP-depleted reserve,"~44.9-45 BNB (~$32,610.72)",bsc,2026,reentrancy
+20260911,GDC,"chained EOA bypass, liquidity misclassification, burn mismatch, and reentrant tax-free exit",~35.34 BNB (35.337151495976986490 BNB reproduced exact to the wei),bsc,2026,reentrancy
+20260909,EtherFiAtomicQueue,missing solver access control drains victim allowances,~15.45 ETH (9 real victims' standing liquidETH allowances drained),mainnet,2026,access control / missing check
+20260909,OMNI404,ERC-404 dual ID/amount transfer interpretation drains pool WETH,2.427 WETH (run() leg reproduced here; ~3.02 ETH across the full 4-tx block),mainnet,2026,logic / other
+20260909,UnifiProtocol,unregistered caller-supplied pool trusted for reward eligibility and math,"~5.86 BNB (treasury still holds ~9.17 BNB, contract unpaused — bug remains re-exploitable)",bsc,2026,access control / missing check
+20260909,BeatXswap,slot0 spot-price oracle with no TWAP guard drains vesting BTX reserves,"~$63.7K USDT net profit (2,984,557 BTX / ~$77.5K drained from two vesting reserves)",bsc,2026,price/oracle/rate manipulation
+20260909,EnsoFinance,short-window Uniswap V3 TWAP oracle enables ~9x overvalued strategy deposit,~5.6 ETH (5.277 ETH realized in this PoC after slippage selling looted UNI/AAVE/MKR back to WETH),mainnet,2026,price/oracle/rate manipulation
+20260909,ZentraFinance,"aToken burn safeguard clamps to zero, repayWithATokens clears debt without burning","~140,000 ctUSD + 30 USDC.e (~$143K)",citrea,2026,logic / other
+20260908,OrderFactory,missing access control on createOrderForBuyer drains buyer accounts,~20.247 ETH this tx (5 buyers drained; reported incident total ~24.7 ETH),mainnet,2026,access control / missing check
+20260907,RouterDrain,permissionless swap entry lets a fake V3 pool abuse router allowances,"~62.28 WBNB across 29 victims (3 reconstructed here: OCEAN, Kandura, SATURN)",bsc,2026,access control / missing check
+20260907,CozyFinance,unverified UMA Optimistic Oracle trigger enables unbacked protection-token redemption,"~160,776 USDC.e (~$160K)",optimism,2026,price/oracle/rate manipulation
+20260905,DHC,repeatable claim due to missing claimed-flag,~$71.8K USDT,bsc,2026,logic / other
+20260905,Reddio,cross-share-class balance double-count via permissionless registerErc20,~9.25 ETH,mainnet,2026,access control / missing check
+20260905,SecuredFi,same-block self-trade manipulates getMarketUnitPrice to fabricate collateral,~0.9 WBTC (~$72K single-drain; ~$104K across all actors exploiting the same public bug),mainnet,2026,logic / other
+20260903,NotionalFinance,ERC1155 fCash mint overflow drains escrow,"~69,257.37 DAI + ~1,658,524.86 USDC (~$1.73M)",mainnet,2026,rounding / precision / math
+20260901,ReflexerGEB,Shared GebProxyActions library registered as SAFE owner,"~5.9436 ETH (~$14K, drained from 4 SAFEs in one tx: IDs 3, 5, 8, 18)",mainnet,2026,governance / key / rugpull
+20260831,FloatProtocol,Uniswap V3 spot price manipulation of Hypervisor LP shares,"~$28,000 (10.71 ETH)",mainnet,2026,price/oracle/rate manipulation
+20260831,BalancerV1BPool,joinswapPoolAmountOut rounding drain across 5 pools,"~$110,839 for this DPI/USDC/WETH/WBTC pool (~$234K aggregate across all 5 vulnerable pools)",mainnet,2026,rounding / precision / math
+20260828,AjnaFinance,liquidation accounting manipulation via self-controlled auction,"~$124.8K for this cbETH pool (1 of 7 pools hit by the same bug the same day, ~$775K aggregate)",mainnet,2026,logic / other
+20260827,CashCowCoin,privileged burn + premature sync() drains PancakeSwap pair,~165.47 WBNB (~$117.4K),bsc,2026,logic / other
+20260826,EnjinCryptoItems,"unprotected registry reinitialization, manager takeover","5,231,353 ENJ (~$142K)",unknown,2026,access control / missing check
+20260825,FHToken,sell-tax reserve mismatch via premature sync(),"19,999.018106552928530404 USDT (~$20K)",unknown,2026,logic / other
+20260823,ArrakisGUNI,Uniswap V3 spot-price manipulation of vault mint/burn,~2.9414 ETH net attacker surplus (Arrakis V1 / G-UNI ENS-WETH vault),mainnet,2026,price/oracle/rate manipulation
+20260823,TermFinance,Governance capture via thinly-wrapped Aragon voting power,"2,841.743535791961701401 WETH (attacker net gain, ETH meta-vault)",mainnet,2026,governance / key / rugpull
+20260822,SandboxOFT,LayerZero delegate hijack via approveAndCall,"10,000,000 SAND minted unbacked (~$517,170 face value, one of 400+ repeated txs in an ongoing campaign)",base,2026,logic / other
+20260819,AllbridgeCCTP,Phantom deposit via unverified message attestation,"~189,751.554381 USDC",base,2026,logic / other
+20260809,USM,defund() price split-invariance rounding exploit,~70.83 ETH,mainnet,2026,rounding / precision / math
+20260806,UnistreetLaunchpad,arbitrary call injection via unvalidated launch forwarding,"~17,743.91 USDC + ~0.0072 WETH (~$17.75K)",mainnet,2026,access control / missing check
+20260805,StrongBlock,governance takeover of an abandoned Governor,"32,695.761681 STRONG + 383,447.167299 STRNGR (~$72K)",mainnet,2026,governance / key / rugpull
+20260803,AIC,"pair skim / reserve-mismatch exploit, flash-swap leveraged",~32.36 BNB (~$21.5K),bsc,2026,logic / other
+20260706,SummerFi,FleetCommander NAV Inflation via Depegged xUSD,~$6M (DAI + LVUSDC shares),mainnet,2026,price/oracle/rate manipulation
+20260701,edel-xstock,Price Oracle Manipulation,"204,215.57 USDC",mainnet,2026,price/oracle/rate manipulation
+20260629,Vault4626,Business Logic Flaw,13.53 WETH,base,2026,logic / other
+20260628,AIDC,Business Logic Flaw,220.13 WBNB,bsc,2026,logic / other
+20260627,CookFinanceIssuance,Price Oracle Manipulation,~$50K,bsc,2026,price/oracle/rate manipulation
+20260625,LixirPermitDrain,Broken Signature Verification,"2.60 ETH, 4,477.72 USDC, 3,609.95 USDT, 24,182.56 LIX",mainnet,2026,access control / missing check
+20260625,OceanBPoolSideStaking,BPool single-sided join/exit math with SideStaking gulp accounting,127.86K mOCEAN,polygon,2026,rounding / precision / math
+20260624,DLMC,Reserve-derived livePrice manipulation,"222,560.22 USDT",bsc,2026,price/oracle/rate manipulation
+20260623,RoyalRoyalties,Zero-amount ERC1155 batch transfer inflated Royal LDA tier balance,"261,162.93 USDC",polygon,2026,price/oracle/rate manipulation
+20260622,Aztec Escape Hatch,proof_id Accounting Bypass (whitehat reproduction),"N/A (purely educational; worst-case impact would have been ~$2M, matching the separate vulnerability that actually drained the contracts)",mainnet,2026,access control / missing check
+20260622,ATM,LP Token Burn,"1,603.99 WBNB",bsc,2026,logic / other
+20260620,OLPC,OLPC pair reserve manipulation,"1,115,903.66 USDT",bsc,2026,logic / other
+20260618,JB,JB helper repeated cycle drains JB/USDT pair,"49,958.06 USDT",bsc,2026,logic / other
+20260617,Aztec V1,escapeHatch Proof-Forgery (permissionless RollupProcessor exit),"~$2.2M (1158 ETH + 150,000 DAI + 0.4696 renBTC)",unmatched,2026,access control / missing check
+20260617,WHALE,Transfer Accounting Reserve Desync,"3,460.41 USDT",bsc,2026,logic / other
+20260617,LBP,LBP balanceOf reward accounting,610.56 BNB,bsc,2026,logic / other
+20260616,DIP,Fee-on-Transfer Reserve Manipulation,"111,097.59 USDC",bsc,2026,logic / other
+20260615,Thetanuts,Index vault component-share accounting flaw,105471.50 USDC,mainnet,2026,logic / other
+20260614,Aztec Connect,numRealTxs Proof/Settlement Mismatch (permissionless RollupProcessorV3),~$2.19M (this PoC reproduces the 908.99 ETH leg),mainnet,2026,access control / missing check
+20260609,TOPBPool,Governance-controlled token mint and Balancer pool drain,944.20 WETH,mainnet,2026,governance / key / rugpull
+20260609,NovaBox,Constructor Dividend Checkpoint Bypass,56.73 ETH,mainnet,2026,access control / missing check
+20260607,AmbientCrocSwapDex,Native surplus accounting flaw,67.85 ETH,mainnet,2026,logic / other
+20260606,BOSS,BOSS helper mint/burn and transfer-tax pool skew,"10,207.54 USDT",bsc,2026,logic / other
+20260605,DTXT,Liquidity Misclassification Fee Bypass,"35,041.11 USDT",bsc,2026,access control / missing check
+20260605,AISOTHPresale,Fixed-price presale arbitrage,"30,314.76 USDT",bsc,2026,logic / other
+20260604,BYToken,Permissionless triggerAutoBurn Reserve Manipulation,"~$87,402 (146.60 WBNB)",bsc,2026,access control / missing check
+20260604,ATM Token,Hidden transferFrom Auto-Swap Drain,"~$243,543 USDT",arbitrum,2026,logic / other
+20260530,AROS,Signature Replay,~$295K,unknown,2026,access control / missing check
+20260529,YSDAO,Price Manipulation and Tax Bypass,~19.49K USDT,bsc,2026,price/oracle/rate manipulation
+20260528,LegendaryMoneyMonNft,ecrecover address(0) Signature Bypass,"~$85.5K USD (85,519 USDT)",bsc,2026,access control / missing check
+20260528,DxSale,Ownership Override Attack,~7.3M USD,bsc,2026,governance / key / rugpull
+20260527,Joe Agent,Reentrancy in removeLiquidityViaContract,~$45K USD (62.5 BNB + ~1.196M JOE),bsc,2026,reentrancy
+20260526,SKP Token,Owner Backdoor LP Burn + Price Manipulation,~$212K USD,arbitrum,2026,price/oracle/rate manipulation
+20260525,SquidRouterModule,Missing caller check,0.25 WBTC + 0.29 wTAO + 0.02 WETH,mainnet,2026,access control / missing check
+20260525,New Market Trading,SquidRouterModule Missing Caller Check,~$3.98M USD,mainnet,2026,access control / missing check
+20260525,WUSD.fi,_englove Sybil Incentive Abuse,~$200K USD (GLOVE emissions + LP drain),mainnet,2026,logic / other
+20260522,FractalProtocol,Business Logic Flaw,~$13.7K,arbitrum,2026,logic / other
+20260521,MureDistribution,Signature Verification Bypass,~5.45 ETH,mainnet,2026,access control / missing check
+20260520,MAPProtocol,Arbitrary Mint,~$180K,mainnet,2026,access control / missing check
+20260519,ElevateFi,Reserve Price Manipulation,"~16,000 USD",polygon,2026,price/oracle/rate manipulation
+20260518,TesseraSwap,Callback Repayment Price Spread,~$20K,base,2026,logic / other
+20260517,VerusBridge,Insufficient Validation,~$11.58M,mainnet,2026,logic / other
+20260517,SEAToken,Business Logic Flaw,~$110K,arbitrum,2026,logic / other
+20260515,AdsharesBridge,Insufficient Validation,~$628K,mainnet,2026,logic / other
+20260512,SQTokenStaking,Access Control,~$346.1K,bsc,2026,access control / missing check
+20260511,INKFinance,Business Logic Flaw,~$140K,polygon,2026,logic / other
+20260511,HumaFinance,Credit Approval Bypass,"~$101K (82,315 USDC + 19,074 USDC.e)",unmatched,2026,access control / missing check
+20260510,Renegade,Uninitialized Proxy,~$209K,arbitrum,2026,access control / missing check
+20260507,TrustedVolumes,Signature Replay,~$5.87M,mainnet,2026,access control / missing check
+20260505,Ekubo,Business Logic Flaw,~$1.4M,mainnet,2026,logic / other
+20260501,SharwaMarginTrading,Hegic collateral spot price manipulation,32.85K USDC,arbitrum,2026,price/oracle/rate manipulation
+20260428,RWAVault,Missing ERC4626 allowance check,"398,655.47 USDC",mainnet,2026,access control / missing check
+20260428,JUDAO,JUDAO sell-hook reserve drain,205K USDT + 36 BNB,bsc,2026,governance / key / rugpull
+20260427,Unverified_a152,AllowanceTarget approval drain,229K USDT,mainnet,2026,access control / missing check
+20260425,SingularityDynaVault,Oracle Misconfiguration / Share Inflation,413.13K USDC,base,2026,price/oracle/rate manipulation
+20260423,GiddyVaultV3,Incomplete Signature Coverage,$1.3M,unmatched,2026,access control / missing check
+20260421,KipseliPropAMM,Pricing / Decimals Mismatch,0.93 cbBTC,base,2026,logic / other
+20260420,JuiceboxREVLoans,Fake terminal loan source validation bypass,21.77 ETH,mainnet,2026,access control / missing check
+20260420,ThetanutsVaultShareRounding,Vault Share Rounding Manipulation,0.15 WBTC,mainnet,2026,rounding / precision / math
+20260419,AaveRebalancerCreditDelegation,Arbitrary External Call / Credit Delegation Abuse,"6,999.91 WAVAX",avalanche,2026,access control / missing check
+20260415,XLootStaking,Duplicate xLOOT Redemption,6.21 ETH,mainnet,2026,logic / other
+20260414,MONA LisaVault,reward-farming / BurnAddress accounting exploit!,,bsc,2026,logic / other
+20260414,Saturn Protocol,Vulnerability Disclosure,0 (Disclosure only; no exploit occurred),mainnet,2026,logic / other
+20260412,SubQuerySettings,Settings access control,218.07M SQT,base,2026,access control / missing check
+20260407,SquidMulticallAllowanceDrain,Arbitrary Call / Wrong Approval,1 ETH,bsc,2026,access control / missing check
+20260405,PerpPair,Virtual AMM Manipulation,165K USDC,linea,2026,logic / other
+20260331,WhalebitOracleManipulation,Algebra spot-price oracle manipulation,824K USD,polygon,2026,price/oracle/rate manipulation
+20260328,VTSwapHook,Pricing Error in UniswapV4 Hook,"4,507,034.03 vATH + 2,007,935.14 ATH",arbitrum,2026,logic / other
+20260327,EST Token,Incorrect Token Burn Mechanism,150.2 WBNB,unmatched,2026,logic / other
+20260324,XocolatlLiquidator,Access Control / Input Validation,3.25 cbETH and 0.22 WETH,base,2026,access control / missing check
+20260324,Univ3CollateralToken,Logic Error,57K USD,optimism,2026,logic / other
+20260323,BCE,Deflationary Token Logic Error,"~800,000 USDT",bsc,2026,logic / other
+20260319,ATMBlindBox,Weak Randomness / Predictable RNG,99K USD,bsc,2026,logic / other
+20260319,Revamp,Reward Accounting Drain,2.99 BNB,bsc,2026,logic / other
+20260316,unverified,CheckoutPool Old BOC Missing Access Control,"85,730 USDC",mainnet,2026,access control / missing check
+20260315,Venus THE,BorrowBehalf + Donation Attack,"913,858.263360521396654198 CAKE + 1,972.530910582753621682 WBNB",bsc,2026,price/oracle/rate manipulation
+20260315,StakeOnMe,Owner-privileged JAKE burn reserve drain,0.28 ETH,unmatched,2026,governance / key / rugpull
+20260310,AlkemiEarn,Business Logic,43.45 ETH,mainnet,2026,logic / other
+20260302,Curve LlamaLend,Share price manipulation,"~240,000 US$",mainnet,2026,price/oracle/rate manipulation
+20260222,LAXO Token,Incorrect Burn Logic,"~137,000 US$",bsc,2026,logic / other
+20260216,XDKRecycle,XDK recycle reserve manipulation,6.84 WBNB,bsc,2026,logic / other
+20260215,Moonwell,Faulty Oracle,1.78M USD,base,2026,price/oracle/rate manipulation
+20260120,SynapLogic,Business Logic Flaw,,base,2026,logic / other
+20260120,Makina,Price Oracle Manipulation,5.1M USD,mainnet,2026,price/oracle/rate manipulation
+20260112,MTToken,Incorrect Fee Logic,37K USD,bsc,2026,logic / other
+20260110,FutureSwap,Unit Mismatch,433K USD,arbitrum,2026,logic / other
+20260109,Truebit,OverFlow,8540ETH,mainnet,2026,rounding / precision / math
+20260101,PRXVT,Bussiness Logic Flaw,32.8 ETH,base,2026,logic / other
+20211221,Visor Finance,Reentrancy,,unmatched,2021,reentrancy
+20211218,Grim Finance,Flashloan & Reentrancy,,unmatched,2021,reentrancy
+20211214,Nerve Bridge,Swap Metapool Attack,,unknown,2021,logic / other
+20211130,MonoX Finance,Price Manipulation,,unmatched,2021,price/oracle/rate manipulation
+20211123,Ploutoz,Flash Loan,,bsc,2021,logic / other
+20211027,CreamFinance,Price Manipulation,,unmatched,2021,price/oracle/rate manipulation
+20211015,Indexed Finance,Price Manipulation,,mainnet,2021,price/oracle/rate manipulation
+20210916,SushiSwap Miso,Insufficient validation,,mainnet,2021,logic / other
+20210915,Nimbus Platform,Incorrect calculation,,unmatched,2021,logic / other
+20210915,NowSwap Platform,Incorrect calculation,,unmatched,2021,logic / other
+20210912,ZABU Finance,Deflationary token uncompatible,,bsc,2021,logic / other
+20210903,DAO Maker,Bad Access Controal,,mainnet,2021,governance / key / rugpull
+20210830,Cream Finance,Flashloan Attack + Reentrancy,,unmatched,2021,reentrancy
+20210817,XSURGE,Flashloan Attack + Reentrancy,,bsc,2021,reentrancy
+20210811,Poly Network,"Bridge, getting around modifier through cross-chain message",,mainnet,2021,rounding / precision / math
+20210804,WaultFinace,FlashLoan price manipulation,,bsc,2021,price/oracle/rate manipulation
+20210804,Popsicle,Repeated Reward Claim - Logic Flaw,,mainnet,2021,logic / other
+20210728,Levyathan Finance,(I) Lost keys and minting (II) Vulnerable emergencyWithdraw,,unmatched,2021,logic / other
+20210710,Chainswap,"Bridge, logic flaw",,bsc,2021,logic / other
+20210702,Chainswap,"Bridge, logic flaw",,bsc,2021,logic / other
+20210628,SafeDollar,Deflationary token uncompatible,$.2 million,polygon,2021,logic / other
+20210625,xWin Finance,subscription-incentive-mechanism,~$300k,unmatched,2021,logic / other
+20210622,Eleven Finance,Doesn’t burn shares,,unmatched,2021,logic / other
+20210607,88mph NFT,Access control,,mainnet,2021,access control / missing check
+20210603,PancakeHunny,Incorrect calculation,,bsc,2021,logic / other
+20210527,JulSwap,Flash Loan,1.5M,bsc,2021,logic / other
+20210527,BurgerSwap,Mathematical flaw + Reentrancy,,bsc,2021,reentrancy
+20210519,PancakeBunny,Price Oracle Manipulation,,bsc,2021,price/oracle/rate manipulation
+20210516,bEarn,Logic Flaw,11M,bsc,2021,logic / other
+20210509,RariCapital,Cross Contract Reentrancy,,mainnet,2021,reentrancy
+20210508,Value Defi,Cross Contract Reentrancy,,bsc,2021,reentrancy
+20210502,Spartan,Logic Flaw,,bsc,2021,logic / other
+20210428,Uranium,Miscalculation,,bsc,2021,logic / other
+20200912,bzx,Incorrect transfer,,mainnet,2020,logic / other
+20180424,SmartMesh,Overflow,140M,mainnet,2018,rounding / precision / math
+20210308,DODO,Flashloan Attack,,unmatched,2021,logic / other
+20210305,Paid Network,Private key compromised,,unmatched,2021,governance / key / rugpull
+20210204,Yearn YDai,Slippage proection absent,,mainnet,2021,logic / other
+20210125,Sushi Badger Digg,Sandwich attack,,mainnet,2021,logic / other
+20201229,Cover Protocol,Incorrect calculation via cached data,,unmatched,2020,logic / other
+20201121,Pickle Finance,Insufficient validation,,unmatched,2020,logic / other
+20201026,Harvest Finance,Flashloan Attack,,mainnet,2020,logic / other
+20200804,Opyn Protocol,msgValue in loop,,unmatched,2020,logic / other
+20200628,Balancer Protocol,Token Incompatible,,unmatched,2020,logic / other
+20200618,Bancor Protocol,Access Control,,unmatched,2020,access control / missing check
+20200419,LendfMe,ERC777 Reentrancy,,mainnet,2020,reentrancy
+20200418,UniSwapV1,ERC777 Reentrancy,,unmatched,2020,reentrancy
+20181007,SpankChain,Reentrancy,155 $ETH,mainnet,2018,reentrancy
+20180422,Beauty Chain,Integer Overflow,,unmatched,2018,rounding / precision / math
+20171106,Parity,'Accidentally Killed It',,mainnet,2017,logic / other
+20170719,Parity Multisig,delegatecall to unprotected initWallet,,unmatched,2017,access control / missing check
+20221230,DFS,Insufficient validation + flashloan,$1450,bsc,2022,logic / other
+20221229,JAY,Insufficient validation + Reentrancy,~15.32 ETH,mainnet,2022,reentrancy
+20221225,Rubic,Arbitrary External Call Vulnerability,$1.5M,mainnet,2022,access control / missing check
+20221223,Defrost,Reentrancy,$170k,avalanche,2022,reentrancy
+20221214,Nmbplatform,FlashLoan price manipulation,76k,bsc,2022,price/oracle/rate manipulation
+20221214,FPR,Access Control,$29k,bsc,2022,access control / missing check
+20221213,ElasticSwap,Business Logic Flaw,$845k,avalanche,2022,logic / other
+20221212,BGLD (Deflationary token),FlashLoan price manipulation,$18k,unmatched,2022,price/oracle/rate manipulation
+20221211,Lodestar,FlashLoan price manipulation,$4M,arbitrum,2022,price/oracle/rate manipulation
+20221211,MEVbot_0x28d9,Insufficient validation,$2k $USDT,mainnet,2022,logic / other
+20221210,MU&MUG,FlashLoan price manipulation,$57k,avalanche,2022,price/oracle/rate manipulation
+20221210,TIFIToken,FlashLoan price manipulation,87 WBNB,unmatched,2022,price/oracle/rate manipulation
+20221209,NOVAToken,Malicious Unlimted Minting (Rugged),330 $BNB,unmatched,2022,governance / key / rugpull
+20221207,AES (Deflationary token),Business Logic Flaw & FlashLoan price manipulation,$60k,unmatched,2022,price/oracle/rate manipulation
+20221205,RFB,Predicting Random Numbers,12BNB,bsc,2022,logic / other
+20221205,BBOX,FlashLoan price manipulation,12k,bsc,2022,price/oracle/rate manipulation
+20221202,OverNight,FlashLoan Attack,170k,avalanche,2022,logic / other
+20221201,APC,FlashLoan & price manipulation,$6k,bsc,2022,price/oracle/rate manipulation
+20221129,MBC & ZZSH,Business Logic Flaw & Access Control,,bsc,2022,access control / missing check
+20221129,SEAMAN,Business Logic Flaw,,bsc,2022,logic / other
+20221123,NUM,Protocol Token incompatible,,mainnet,2022,logic / other
+20221122,AUR,Lack of Permission Check,$13k,bsc,2022,access control / missing check
+20221121,sDAO,Business Logic Flaw,$13k,bsc,2022,governance / key / rugpull
+20221119,AnnexFinance,Verify flashLoan Callback,$3k,unmatched,2022,logic / other
+20221118,Polynomial,No input validation,~1.4K USD,optimism,2022,logic / other
+20221117,UEarnPool,FlashLoan Attack,$24k,bsc,2022,logic / other
+20221116,SheepFarm,No input validation,~1BNB,bsc,2022,logic / other
+20221110,DFXFinance,Reentrancy,$4M,mainnet,2022,reentrancy
+20221109,BrahTOPG,Arbitrary External Call Vulnerability,$89k,mainnet,2022,access control / missing check
+20221108,MEV_0ad8,Arbitrary call,$282k,mainnet,2022,access control / missing check
+20221108,Kashi,Price-caching Design Defect,$110k,mainnet,2022,logic / other
+20221107,MooCAKECTX,FlashLoan Attack,$140k,bsc,2022,logic / other
+20221105,BDEX,Business Logic Flaw,16WBNB,bsc,2022,logic / other
+20221027,VTF Token,Incorrect Reward calculation,$50k,unmatched,2022,logic / other
+20221027,Team Finance,Liquidity Migration Exploit,Multiple Tokens ~$15.8M US$,mainnet,2022,logic / other
+20221026,N00d Token,Reentrancy,,unmatched,2022,reentrancy
+20221025,ULME,Access Control,,bsc,2022,access control / missing check
+20221024,Market,Read-only Reentrancy,$220k,polygon,2022,reentrancy
+20221024,MulticallWithoutCheck,Arbitrary External Call Vulnerability,,polygon,2022,access control / missing check
+20221021,OlympusDAO,No input validation,,mainnet,2022,governance / key / rugpull
+20221020,HEALTH,Transfer Logic Flaw,,bsc,2022,logic / other
+20221020,BEGO,Incorrect signature verification,,bsc,2022,access control / missing check
+20221018,HPAY,Access Control,115 BNB,bsc,2022,access control / missing check
+20221018,PLTD,Transfer Logic Flaw,$ 24k,bsc,2022,logic / other
+20221017,Uerii Token,Access Control,$2.4 k,unmatched,2022,access control / missing check
+20221014,INUKO,FlashLoan price manipulation,$50k,bsc,2022,price/oracle/rate manipulation
+20221014,EFLeverVault,Verify flashLoan Callback,750 ETH,mainnet,2022,logic / other
+20221014,MEVBOTa47b,Price Oracle Manipulation,~187.75 WETH,mainnet,2022,price/oracle/rate manipulation
+20221012,ATK,FlashLoan manipulate price,~127K BUSD,bsc,2022,logic / other
+20221011,Rabby Wallet SwapRouter,Arbitrary External Call Vulnerability,"~200,000 US$",mainnet,2022,access control / missing check
+20221011,Templedao,Insufficient access control,$2.3 million,mainnet,2022,access control / missing check
+20221010,Carrot,Public functionCall,"31,318 BUSDT",bsc,2022,logic / other
+20221009,Xave Finance,Malicious Proposal Mint & Transfer Ownership,"100,000,000,000,000 RNBW",mainnet,2022,governance / key / rugpull
+20221006,RES-Token,pair manipulate,,unmatched,2022,logic / other
+20221002,Transit Swap,Incorrect owner address validation,over $21 Million,bsc,2022,governance / key / rugpull
+20221001,BabySwap,Parameter Access Control,,bsc,2022,access control / missing check
+20221001,RL Token,Incorrect Reward calculation,,unmatched,2022,logic / other
+20221001,Thunder Brawl,Reentrancy,,unmatched,2022,reentrancy
+20220928,BXH,Flashloan & Price Oracle Manipulation,"$40,305",bsc,2022,price/oracle/rate manipulation
+20220928,MEVBOT,Arbitrary Call,"$1,469,700",unmatched,2022,access control / missing check
+20220923,RADT-DAO,pair manipulate,,unmatched,2022,governance / key / rugpull
+20220913,MevBot private tx,Incorrect access control,$140 K,unmatched,2022,access control / missing check
+20220909,DPC,Incorrect Reward calculation,,bsc,2022,logic / other
+20220908,YYDS,pair manipulate,,bsc,2022,logic / other
+20220908,Ragnarok Online Invasion,Broken Access Control,,unmatched,2022,access control / missing check
+20220908,NewFreeDAO,Flashloans Attack,,bsc,2022,governance / key / rugpull
+20220906,NXUSD,flashloan price oracle manipulation,,avalanche,2022,price/oracle/rate manipulation
+20220905,ZoomproFinance,Flashloans & Price Manipulation,,bsc,2022,price/oracle/rate manipulation
+20220902,ShadowFi,Access Control,,bsc,2022,access control / missing check
+20220902,Bad Guys by RPF,Business Logic Flaw : Missing Check For Number of NFT to Mint,,mainnet,2022,access control / missing check
+20220828,DDC,Unchecked External Calls,,bsc,2022,logic / other
+20220824,LuckyTiger NFT,Predicting Random Numbers,,mainnet,2022,logic / other
+20220816,Circle,Price Manipulation,~$151.6K,mainnet,2022,price/oracle/rate manipulation
+20220813,Circle,Price Manipulation,~$50.5K,mainnet,2022,price/oracle/rate manipulation
+20220810,XSTABLE Protocol,Incorrect Logic Check,,unmatched,2022,logic / other
+20220809,ANCH,Skim token balance,,bsc,2022,logic / other
+20220807,EGD Finance,Flashloans & Price Manipulation,,bsc,2022,price/oracle/rate manipulation
+20220804,EtnProduct,Business Logic Flaw,,bsc,2022,logic / other
+20220803,Qixi,Underflow,,bsc,2022,rounding / precision / math
+20220802,Nomad Bridge,Business Logic Flaw : Incorrect acceptable merkle-root checks,,mainnet,2022,logic / other
+20220801,Reaper Farm,Business Logic Flaw : Lack of access control mechanism,,fantom,2022,access control / missing check
+20220725,LPC,"Business Logic Flaw : Incorrect recipient balance check, did not check sender!=recipient in transfer",,bsc,2022,logic / other
+20220723,Audius,Storage Collision & Malicious Proposal,,mainnet,2022,logic / other
+20220713,SpaceGodzilla,Flashloans & Price Manipulation,,bsc,2022,price/oracle/rate manipulation
+20220710,Omni NFT,Reentrancy,,unmatched,2022,reentrancy
+20220706,FlippazOne NFT,Accesscontrol,,mainnet,2022,logic / other
+20220701,Quixotic,Optimism NFT Marketplace,,optimism,2022,logic / other
+20220626,XCarnival,Infinite Number of Loans,,mainnet,2022,logic / other
+20220624,Harmony's Horizon Bridge,Private key compromised,,unmatched,2022,governance / key / rugpull
+20220618,SNOOD,Miscalculation on \_spendAllowance,,mainnet,2022,logic / other
+20220616,InverseFinance,Flashloan & Price Oracle Manipulation,,mainnet,2022,price/oracle/rate manipulation
+20220608,GYMNetwork,Accesscontrol,,unmatched,2022,logic / other
+20220608,Optimism,Wintermute,,optimism,2022,logic / other
+20220606,Discover,Flashloan & Price Oracle Manipulation,,bsc,2022,price/oracle/rate manipulation
+20220529,NOVO Protocol,Flashloan & Price Oracle Manipulation,,unmatched,2022,price/oracle/rate manipulation
+20220524,HackDao,Skim token balance,,bsc,2022,governance / key / rugpull
+20220517,ApeCoin (APE),Flashloan,,unmatched,2022,logic / other
+20220508,Fortress Loans,Malicious Proposal & Price Oracle Manipulation,,bsc,2022,price/oracle/rate manipulation
+20220430,Saddle Finance,Swap Metapool Attack,$10 million,unmatched,2022,logic / other
+20220430,Rari Capital/Fei Protocol,Flashloan Attack + Reentrancy,,unmatched,2022,reentrancy
+20220428,DEUS DAO,Flashloan & Price Oracle Manipulation,,unmatched,2022,price/oracle/rate manipulation
+20220424,Wiener DOGE,Flashloan,,unmatched,2022,logic / other
+20220423,Akutar NFT,Denial of Service,,mainnet,2022,logic / other
+20220421,Zeed Finance,Incorrect calculation,,unmatched,2022,logic / other
+20220416,BeanstalkFarms,DAO + Flashloan,,mainnet,2022,governance / key / rugpull
+20220415,Rikkei Finance,Access control & Price Oracle Manipulation,,unmatched,2022,price/oracle/rate manipulation
+20220412,ElephantMoney,Flashloan & Price Oracle Manipulation,,bsc,2022,price/oracle/rate manipulation
+20220411,Creat Future,Overflow,,unmatched,2022,rounding / precision / math
+20220409,GYMNetwork,Flashloan + token migrate flaw,,unmatched,2022,logic / other
+20220329,Ronin Network,Bridge,,unmatched,2022,logic / other
+20220329,Redacted Cartel,Custom Approval Logic,,mainnet,2022,access control / missing check
+20220327,Revest Finance,Reentrancy,,unmatched,2022,reentrancy
+20220326,Auctus,Arbitrary Call,,mainnet,2022,access control / missing check
+20220322,CompoundTUSDSweepTokenBypass,Insufficient validation,,unmatched,2022,access control / missing check
+20220321,OneRing Finance,Flashloan & Price Oracle Manipulation,,unmatched,2022,price/oracle/rate manipulation
+20220320,Li.Fi,Bridges,,mainnet,2022,logic / other
+20220320,Umbrella Network,Underflow,,unmatched,2022,rounding / precision / math
+20220313,Hundred Finance,ERC667 Reentrancy,,gnosis,2022,reentrancy
+20220315,Agave Finance,ERC667 Reentrancy,,unmatched,2022,reentrancy
+20220313,Paraluni,Flashloan & Reentrancy,,bsc,2022,reentrancy
+20220309,Fantasm Finance,Business logic in mint(),,unmatched,2022,logic / other
+20220305,Bacon Protocol,Reentrancy,,unmatched,2022,reentrancy
+20220303,TreasureDAO,Zero Fee,,arbitrum,2022,governance / key / rugpull
+20220214,BuildFinance,DAO,,unmatched,2022,logic / other
+20220208,Sandbox LAND,Access control,,mainnet,2022,access control / missing check
+20220206,Meter,Bridge,,moonriver,2022,logic / other
+20220204,TecraSpace,Any token is destroyed,,mainnet,2022,logic / other
+20220128,Qubit Finance,Bridge address(0).safeTransferFrom() does not revert,,unmatched,2022,logic / other
+20220118,Multichain (Anyswap),Insufficient Token Validation,,unmatched,2022,logic / other
+20231231,Channels,Price Manipulation,~$4.4K,bsc,2023,price/oracle/rate manipulation
+20231230,ChannelsFinance,CompoundV2 Inflation Attack,~320K,bsc,2023,price/oracle/rate manipulation
+20231228,CCV,Precision loss,~3.2K $BUSD,bsc,2023,rounding / precision / math
+20231228,DominoTT,Precision loss,~5 $WBNB,bsc,2023,rounding / precision / math
+20231225,Telcoin,Storage Collision,"~1,24M",polygon,2023,logic / other
+20231222,PineProtocol,Business Logic Flaw,~90k,mainnet,2023,logic / other
+20231220,TransitFinance,Lack of Validation Pool,~110k,bsc,2023,logic / other
+20231217,Bob,Price Manipulation,~3BNB,bsc,2023,price/oracle/rate manipulation
+20231217,FloorProtocol,Business Logic Flaw,"~$1,6M",mainnet,2023,logic / other
+20231216,GoodDollar,Lack of Input Validation & Reentrancy,~$2M,mainnet,2023,reentrancy
+20231216,KEST,Business Logic Flaw,~$2.3K,bsc,2023,logic / other
+20231216,NFTTrader,Reentrancy,~$3M,mainnet,2023,reentrancy
+20231214,PHIL,Business Logic Flaw,~$2 $BNB,bsc,2023,logic / other
+20231213,HYPR,Business Logic Flaw,~$200k,mainnet,2023,logic / other
+20231211,GoodCompound,Price Manipulation,~$13K (~250 COMP Token),mainnet,2023,price/oracle/rate manipulation
+20231209,BCT,Price Manipulation,~10.2BNB,bsc,2023,price/oracle/rate manipulation
+20231207,HNet,Business logic flaw,~2.4 $WBNB,bsc,2023,logic / other
+20231206,TIME,Arbitrary Address Spoofing Attack,~84.59 ETH,mainnet,2023,access control / missing check
+20231206,ElephantStatus,Price Manipulation,~$165k,bsc,2023,price/oracle/rate manipulation
+20231205,MAMO,Price Manipulation,~$3.3K,bsc,2023,price/oracle/rate manipulation
+20231205,BEARNDAO,Business Logic Flaw,~$769k,bsc,2023,governance / key / rugpull
+20231202,bZxProtocol,Inflation Attack,~$208k,mainnet,2023,price/oracle/rate manipulation
+20231201,UnverifiedContr_0x431abb,Business Logic Flaw,~$500k,bsc,2023,logic / other
+20231130,EEE,Price Manipulation,~$22.8K,bsc,2023,price/oracle/rate manipulation
+20231130,CAROLProtocol,Price Manipulation Via Reentrancy,~$53k,base,2023,price/oracle/rate manipulation
+20231129,Burntbubba,Price Manipulation,~$3K,mainnet,2023,price/oracle/rate manipulation
+20231129,AIS,Insufficient validation,~$61k,bsc,2023,logic / other
+20231128,FiberRouter,input validation,18 eth,bsc,2023,logic / other
+20231125,MetaLend,CompoundV2 Inflation Attack,~$4K,mainnet,2023,price/oracle/rate manipulation
+20231125,TheNFTV2,logic flaw,~$19K,mainnet,2023,logic / other
+20231122,KyberSwap,precision loss,~$48M,_chain,2023,rounding / precision / math
+20231117,Token8633_9419,Price Manipulation,~$52K,bsc,2023,price/oracle/rate manipulation
+20231117,ShibaToken,Business Logic Flaw,~$31K,bsc,2023,logic / other
+20231116,WECO,Business Logic Flaw,~$18K,bsc,2023,logic / other
+20231115,EHX,Lack of Slippage Control,Unclear,bsc,2023,logic / other
+20231115,XAI,Business Logic Flaw,Unclear,bsc,2023,logic / other
+20231115,LinkDAO,Bad `K` Value Verification,~$30K,bsc,2023,governance / key / rugpull
+20231114,OKC Project,"Instant Rewards, Unlocked",~$6268,unmatched,2023,logic / other
+20231112,MEVBot_0x8c2d,Lack of Access Control,~$365K,bsc,2023,access control / missing check
+20231112,MEVBot_0xa247,Incorrect Access Control,~$150K,mainnet,2023,access control / missing check
+20231111,MahaLend,Donate Inflation ExchangeRate & Rounding Error,~$20 K,mainnet,2023,price/oracle/rate manipulation
+20231110,Raft_fi,Donate Inflation ExchangeRate & Rounding Error,~$3.2 M,mainnet,2023,price/oracle/rate manipulation
+20231110,grok,Lack of slippage protection,~26 ETH,mainnet,2023,logic / other
+20231107,RBalancer,Business Logic Flaw,~17 ETH,mainnet,2023,logic / other
+20231107,MEVbot,Lack of access control,~$2M,unmatched,2023,access control / missing check
+20231106,TrustPad,Lack of msg.sender address verification,~$155K,bsc,2023,logic / other
+20231106,KR,Precision loss,~$15K,bsc,2023,rounding / precision / math
+20231106,TheStandard_io,Lack of slippage protection,~$290K,arbitrum,2023,logic / other
+20231102,BRAND,Lack of access control,~23 WBNB,bsc,2023,access control / missing check
+20231102,3913Token,Deflationary Token Attack,~$31354 USD$,unmatched,2023,logic / other
+20231101,OnyxProtocol,Precission Loss Vulnerability,~$2M,mainnet,2023,logic / other
+20231101,SwampFinance,Business Logic Flaw,Unclear,bsc,2023,logic / other
+20231031,UniBotRouter,Arbitrary External Call,"~$83,944 USD$",unmatched,2023,access control / missing check
+20231030,LaEeb,Lack Slippage Protection,~1.8 WBNB,bsc,2023,logic / other
+20231028,AstridProtocol,Business Logic Flaw,~$127ETH,unmatched,2023,logic / other
+20231024,MaestroRouter2,Arbitrary External Call,~$280ETH,mainnet,2023,access control / missing check
+20231022,OpenLeverage,Business Logic Flaw,~$8K,bsc,2023,logic / other
+20231019,kTAF,CompoundV2 Inflation Attack,~$8K,mainnet,2023,price/oracle/rate manipulation
+20231018,Hopelend,Div Precision Loss,~$825K,mainnet,2023,rounding / precision / math
+20231018,MicDao,Price Manipulation,~$13K,bsc,2023,price/oracle/rate manipulation
+20231013,BelugaDex,Price manipulation,~$175K,arbitrum,2023,price/oracle/rate manipulation
+20231013,WiseLending,Donate Inflation ExchangeRate && Rounding Error,~$260K,mainnet,2023,price/oracle/rate manipulation
+20231012,Platypus,Business Logic Flaw,~$2M,avalanche,2023,logic / other
+20231011,BH,Price manipulation,~$1.27M,bsc,2023,price/oracle/rate manipulation
+20231008,ZS,Business Logic Flaw,~$14K,bsc,2023,logic / other
+20231008,pSeudoEth,Pool manipulation,~$2.3K,mainnet,2023,logic / other
+20231007,StarsArena,Reentrancy,~$3M,avalanche,2023,reentrancy
+20231005,DePayRouter,Business Logic Flaw,~$ 827 USDC,mainnet,2023,logic / other
+20230930,FireBirdPair,Lack Slippage Protection,~$3.2K MATIC,polygon,2023,logic / other
+20230929,DEXRouter,Arbitrary External Call,~$4K,bsc,2023,access control / missing check
+20230926,XSDWETHpool,Reentrancy,~$56.9BNB,bsc,2023,reentrancy
+20230924,KubSplit,Pool manipulation,~$78K,bsc,2023,logic / other
+20230921,CEXISWAP,Incorrect Access Control,~$30K,mainnet,2023,access control / missing check
+20230916,uniclyNFT,Reentrancy,1 NFT,mainnet,2023,reentrancy
+20230911,0x0DEX,Parameter manipulation,~$61K,mainnet,2023,logic / other
+20230909,BFCToken,Business Logic Flaw,~$38K,bsc,2023,logic / other
+20230908,APIG,Business Logic Flaw,~$169K,bsc,2023,logic / other
+20230907,HCT,Price Manipulation,~$30.5BNB,bsc,2023,price/oracle/rate manipulation
+20230905,QuantumWN,Rebasing logic issue,~$0.5 ETH,mainnet,2023,logic / other
+20230905,JumpFarm,Rebasing logic issue,~$2.4ETH,mainnet,2023,logic / other
+20230905,HeavensGate,Rebasing logic issue,~$8ETH,mainnet,2023,logic / other
+20230905,FloorDAO,Rebasing logic issue,~$40ETH,mainnet,2023,governance / key / rugpull
+20230902,DAppSocial,Business Logic Flaw,~$16K,mainnet,2023,logic / other
+20230829,EAC,Price Manipulation,~$29BNB,bsc,2023,price/oracle/rate manipulation
+20230827,Balancer,Rounding Error && Business Logic Flaw,~$2M,mainnet,2023,rounding / precision / math
+20230826,SVT,flawed price calculation,~$400K,bsc,2023,logic / other
+20230824,GSS,skim token balance,~$25K,bsc,2023,logic / other
+20230821,EHIVE,Business Logic Flaw,~$15K,mainnet,2023,logic / other
+20230819,BTC20,Price Manipulation,~$18ETH,mainnet,2023,price/oracle/rate manipulation
+20230818,ExactlyProtocol,insufficient validation,~$7M,unmatched,2023,logic / other
+20230814,ZunamiProtocol,Price Manipulation,~$2M,unmatched,2023,price/oracle/rate manipulation
+20230809,EarningFram,Reentrancy,~$286k,mainnet,2023,reentrancy
+20230802,CurveBurner,Lack Slippage Protection,~$36K,mainnet,2023,logic / other
+20230802,Uwerx,Fault logic,~$176ETH,mainnet,2023,logic / other
+20230801,NeutraFinance,Price Manipulation,~$23ETH,arbitrum,2023,price/oracle/rate manipulation
+20230801,LeetSwap,Access Control,~$630K,base,2023,access control / missing check
+20230731,GYMNET,Insufficient validation,Unclear,bsc,2023,logic / other
+20230730,Curve,Vyper Compiler Bug && Reentrancy,~ $41M,mainnet,2023,reentrancy
+20230726,Carson,Price manipulation,~$150K,bsc,2023,price/oracle/rate manipulation
+20230724,Palmswap,Business Logic Flaw,~$900K,bsc,2023,logic / other
+20230723,MintoFinance,Signature Replay,~$9K,bsc,2023,access control / missing check
+20230722,Conic Finance 02,Price Manipulation,~$934K,unmatched,2023,price/oracle/rate manipulation
+20230721,Conic Finance,Read-Only-Reentrancy && MisConfiguration,~$3.25M,unmatched,2023,reentrancy
+20230721,SUT,Business Logic Flaw,~$8k,bsc,2023,logic / other
+20230720,Utopia,Business Logic Flaw,~$119k,bsc,2023,logic / other
+20230720,FFIST,Business Logic Flaw,~$110k,bsc,2023,logic / other
+20230718,APEDAO,Business Logic Flaw,~$7K,bsc,2023,governance / key / rugpull
+20230718,BNO,Invalid emergency withdraw mechanism,~$505K,bsc,2023,logic / other
+20230717,NewFi,Lack Slippage Protection,~$31K,bsc,2023,logic / other
+20230715,USDTStakingContract28,Lack of access control,~20999 USD,mainnet,2023,access control / missing check
+20230712,Platypus,Bussiness Logic Flaw,~$51K,avalanche,2023,logic / other
+20230712,WGPT,Business Logic Flaw,~$80k,bsc,2023,logic / other
+20230711,RodeoFinance,TWAP Oracle Manipulation,~$888k,arbitrum,2023,price/oracle/rate manipulation
+20230711,Libertify,Reentrancy,~$452k,polygon,2023,reentrancy
+20230710,ArcadiaFi,Reentrancy,~$400k,optimism,2023,reentrancy
+20230708,CIVNFT,Lack of access control,~$180k,mainnet,2023,access control / missing check
+20230708,Civfund,Lack of access control,~$165k,mainnet,2023,access control / missing check
+20230707,LUSD,Price manipulation attack,~9464USDT,bsc,2023,price/oracle/rate manipulation
+20230704,BambooIA,Price manipulation attack,~200BNB,bsc,2023,price/oracle/rate manipulation
+20230704,BaoCommunity,Donate Inflation ExchangeRate && Rounding Error,~$46k,unmatched,2023,price/oracle/rate manipulation
+20230703,AzukiDAO,Invalid signature verification,~$69k,mainnet,2023,access control / missing check
+20230630,Biswap,V3Migrator Exploit,~$72k,unknown,2023,logic / other
+20230630,MyAi,Business Logic,~2 $BNB,bsc,2023,logic / other
+20230628,Themis,Manipulation of prices using Flashloan,~$370k,arbitrum,2023,logic / other
+20230627,UnverifiedContr_9ad32,Business Logic Flaw,~5955 USD,bsc,2023,logic / other
+20230627,STRAC,Business Logic Flaw,~12 $ETH,bsc,2023,logic / other
+20230623,SHIDO,Business Logic,~997 WBNB,bsc,2023,logic / other
+20230621,BabyDogeCoin02,Lack Slippage Protection,~ 441 BNB,bsc,2023,logic / other
+20230621,BUNN,Reflection tokens,~52BNB,bsc,2023,logic / other
+20230620,MIMSpell,Arbitrary External Call Vulnerability,~$17k,mainnet,2023,access control / missing check
+20230619,Contract_0x7657,Business Logic,~$20k $USDT,mainnet,2023,logic / other
+20230618,ARA,Incorrect handling of permissions,~$125k,bsc,2023,access control / missing check
+20230617,Pawnfi,Business Logic Flaw,~$820K,mainnet,2023,logic / other
+20230617,MidasCapitalXYZ,Precision Loss,~$600K,bsc,2023,rounding / precision / math
+20230615,CFC,Uniswap Skim() token balance attack,~$16k,bsc,2023,logic / other
+20230615,DEPUSDT_LEVUSDC,Incorrect access control,~$105k,mainnet,2023,access control / missing check
+20230612,Sturdy Finance,Read-Only-Reentrancy,~$800k,unmatched,2023,reentrancy
+20230611,SellToken04,Price Manipulation,~$109k,bsc,2023,price/oracle/rate manipulation
+20230607,CompounderFinance,Manipulation of funds through fluctuations in the amount of exchangeable assets,"~$27,174",mainnet,2023,logic / other
+20230606,VINU,Price Manipulation,~$6k,mainnet,2023,price/oracle/rate manipulation
+20230606,UN,Price Manipulation,~$26k,bsc,2023,price/oracle/rate manipulation
+20230602,NST Simple Swap,"Unverified contract, wrong approval",$40k,unmatched,2023,access control / missing check
+20230601,DDCoin,Flashloan attack and smart contract vulnerability,~$300k,bsc,2023,logic / other
+20230601,Cellframenet,Calculation issues during liquidity migration,~$76k,bsc,2023,logic / other
+20230531,ERC20TokenBank,Price Manipulation,~$111k,mainnet,2023,price/oracle/rate manipulation
+20230529,Jimbo,Protocol Specific Price Manipulation,~$8M,arbitrum,2023,price/oracle/rate manipulation
+20230529,BabyDogeCoin,Lack Slippage Protection,~$135k,bsc,2023,logic / other
+20230529,FAPEN,Wrong balance check,~$600,bsc,2023,logic / other
+20230529,NOON (NO),Wrong visibility in function,~$2K,mainnet,2023,logic / other
+20230525,GPT Token,Fee Machenism Exploitation,~$42k,unmatched,2023,logic / other
+20230524,Local Trade LCT,Improper Access Control of Close-source contract,~384 BNB,bsc,2023,access control / missing check
+20230524,CS Token,Outdated Global Variable,~714K USD,bsc,2023,logic / other
+20230523,LFI Token,Business Logic Flaw,~36K USD,unmatched,2023,logic / other
+20230514,landNFT,Lack of permission control,"149,616 $BUSD",bsc,2023,access control / missing check
+20230514,SellToken03,Unchecked User Input,Unclear,bsc,2023,logic / other
+20230513,Bitpaidio,Business Logic Flaw,~$30K,bsc,2023,logic / other
+20230512,LW,FlashLoan Price Manipulation,~$50k,bsc,2023,price/oracle/rate manipulation
+20230513,SellToken02,Price Manipulation,~$197k,bsc,2023,price/oracle/rate manipulation
+20230511,SellToken01,Business Logic Flaw,~$95k,bsc,2023,logic / other
+20230510,SNK,Reward Calculation Error,~$197k,bsc,2023,logic / other
+20230509,MCC,Reflection token,~$10 ETH,unmatched,2023,logic / other
+20230509,HODL,Reflection token,~$2.3 ETH,unmatched,2023,logic / other
+20230506,Melo,Access Control,~$90k,bsc,2023,access control / missing check
+20230505,DEI,wrong implemention,,arbitrum,2023,logic / other
+20230503,NeverFall,Price Manipulation,~74K,bsc,2023,price/oracle/rate manipulation
+20230502,Level,Business Logic Flaw,~$1M,bsc,2023,logic / other
+20230428,0vix,FlashLoan Price Manipulation,~$2M,polygon,2023,price/oracle/rate manipulation
+20230427,Silo finance,Business Logic Flaw,None,mainnet,2023,logic / other
+20230424,Axioma,Business Logic Flaw,~21 WBNB,bsc,2023,logic / other
+20230419,OLIFE,Reflection token,~32 WBNB,bsc,2023,logic / other
+20230416,Swapos V2,error k value Attack,~$468k,mainnet,2023,logic / other
+20230415,HundredFinance,Donate Inflation ExchangeRate && Rounding Error,$7M,gnosis,2023,price/oracle/rate manipulation
+20230413,yearnFinance,Misconfiguration,$11.6M,mainnet,2023,logic / other
+20230412,MetaPoint,Unrestricted Approval,$820k(2500BNB),bsc,2023,access control / missing check
+20230411,Paribus,Reentrancy,$100k,arbitrum,2023,reentrancy
+20230409,SushiSwap,Unchecked User Input,>$3.3M,unmatched,2023,logic / other
+20230405,Sentiment,Read-Only-Reentrancy,$1M,arbitrum,2023,reentrancy
+20230402,Allbridge,FlashLoan price manipulation,$550k,bsc,2023,price/oracle/rate manipulation
+20230328,SafeMoon Hack,Access Control,$8.9M,bsc,2023,access control / missing check
+20230328,Thena,Yield Protocol Flaw,$10k,bsc,2023,logic / other
+20230325,DBW,Business Logic Flaw,$24k,bsc,2023,logic / other
+20230322,BIGFI,Reflection token,$30k,bsc,2023,logic / other
+20230317,ParaSpace NFT,Flashloan + scaledBalanceOf Manipulation,,mainnet,2023,logic / other
+20230315,Poolz,integer overflow,~$390K,bsc,2023,rounding / precision / math
+20230313,EulerFinance,Business Logic Flaw,~$200M,mainnet,2023,logic / other
+20230308,DKP,FlashLoan price manipulation,~$80K,bsc,2023,price/oracle/rate manipulation
+20230307,Phoenix,Access Control & Arbitrary External Call,~$100k,polygon,2023,access control / missing check
+20230227,LaunchZone,Access Control,"~$320,000",bsc,2023,access control / missing check
+20230227,swapX,Access Control,~$1M,bsc,2023,access control / missing check
+20230224,EFVault,Storage Collision,~$5.1M,mainnet,2023,logic / other
+20230222,DYNA,Business Logic Flaw,~$21k,bsc,2023,logic / other
+20230218,RevertFinance,Arbitrary External Call Vulnerability,~$30k,mainnet,2023,access control / missing check
+20230217,Starlink,Business Logic Flaw,~$12k,bsc,2023,logic / other
+20230217,Dexible,Arbitrary External Call Vulnerability,~$1.5M,mainnet,2023,access control / missing check
+20230217,Platypusdefi,Business Logic Flaw,~$8.5M,avalanche,2023,logic / other
+20230210,Sheep,Reflection token,~$3K,bsc,2023,logic / other
+20230210,dForce,Read-Only-Reentrancy,~$3.65M,arbitrum,2023,reentrancy
+20230207,CowSwap,Arbitrary External Call Vulnerability,~$120k,mainnet,2023,access control / missing check
+20230206,FDP,Reflection token,~16 WBNB,bsc,2023,logic / other
+20230203,Spherax USDs,Balance Recalculation Bug,~309k USDs (Stablecoin),unmatched,2023,logic / other
+20230203,Orion Protocol,Reentrancy,$3M,unmatched,2023,reentrancy
+20230202,BonqDAO,Price Oracle Manipulation,BEUR stablecoin and ALBT Token (~88M US$),polygon,2023,price/oracle/rate manipulation
+20230130,BEVO,Reflection token,144 BNB,bsc,2023,logic / other
+20230126,TINU,Reflection token,22 ETH,mainnet,2023,logic / other
+20230119,SHOCO,Reflection token,~4ETH,mainnet,2023,logic / other
+20230119,ThoreumFinance,business logic flaw,~2000 BNB,bsc,2023,logic / other
+20230118,QTNToken,business logic flaw,~2ETH,unmatched,2023,logic / other
+20230118,UPSToken,business logic flaw,~22 ETH,unmatched,2023,logic / other
+20230117,OmniEstate,No Input Parameter Check,$70k(236 BNB),bsc,2023,logic / other
+20230116,MidasCapital,Read-only Reentrancy,$650k,unmatched,2023,reentrancy
+20230111,UFDao,Incorrect Parameter Setting,$90k,bsc,2023,governance / key / rugpull
+20230111,RoeFinance,FlashLoan price manipulation,$80k,mainnet,2023,price/oracle/rate manipulation
+20230110,BRA,Business Logic Flaw,819 BNB (~224k$),bsc,2023,logic / other
+20230103,GDS,Business Logic Flaw,$180k,bsc,2023,logic / other
+20241227,Bizness,Reentrancy,15.7k USD,base,2024,reentrancy
+20241223,Moonhacker,improper input validation,318.9 k,optimism,2024,logic / other
+20241218,SlurpyCoin,Logic Flaw,3k USD,bsc,2024,logic / other
+20241216,BTC24H,Logic Flaw,~ $85.7K,polygon,2024,logic / other
+20241214,JHY,Logic Flaw,11k BSC-USD,bsc,2024,logic / other
+20241210,LABUBU Token,Logic Flaw,,mainnet,2024,logic / other
+20241210,CloberDEX,Reentrancy,~501K US$ (133.7 WETH),base,2024,reentrancy
+20241203,Pledge,Access Control,15K,bsc,2024,access control / missing check
+20241126,NFTG,Access Control,10k USD,bsc,2024,access control / missing check
+20241124,Proxy_b7e1,Logic Flaw,8.5k USD,bsc,2024,logic / other
+20241123,Ak1111,Access Control,31.5K USD,bsc,2024,access control / missing check
+20241121,Matez,Integer Truncation,80k USD,bsc,2024,rounding / precision / math
+20241120,MainnetSettler,Access Control,$66K,mainnet,2024,access control / missing check
+20241119,PolterFinance,FlashLoan Attack,$7M,fantom,2024,logic / other
+20241117,MFT,Logic Flaw,33.7k USD,bsc,2024,logic / other
+20241114,vETH,Vulnerable Price Dependency,447k,mainnet,2024,logic / other
+20241111,DeltaPrime,Reentrancy,$12.9 K,arbitrum,2024,reentrancy
+20241109,X319,Access Control,$12.9 K,bsc,2024,access control / missing check
+20241107,ChiSale,Logic Flaw,$16.3 K,mainnet,2024,logic / other
+20241107,CoW,Access Control,$59 K,mainnet,2024,access control / missing check
+20241107,VRug,Rug pull,$8.4 K,mainnet,2024,governance / key / rugpull
+20241105,RPP,Logic Flaw,~ $14.1K,bsc,2024,logic / other
+20241029,BUBAI,Rug pull,$131K,mainnet,2024,governance / key / rugpull
+20241026,CompoundFork,Flashloan attack,$1M,base,2024,logic / other
+20241022,Erc20transfer,Access Control,"$14,773.35",mainnet,2024,access control / missing check
+20241022,Vista,flashmint receive error,"$28,000",bsc,2024,logic / other
+20241013,MorphoBlue,Overpriced Asset in Oracle,"$230,000",mainnet,2024,price/oracle/rate manipulation
+20241011,P719Token,Price Manipulation Inflate Attack,,bsc,2024,price/oracle/rate manipulation
+20241006,SASHAToken,Price Manipulation,,mainnet,2024,price/oracle/rate manipulation
+20241010,HYDT,Oracle Price Manipulation,,bsc,2024,price/oracle/rate manipulation
+20241005,AIZPTToken,Wrong Price Calculation,,bsc,2024,logic / other
+20241001,FireToken,Pair Manipulation With Transfer Function,8.45 ETH (~$20K USD),mainnet,2024,logic / other
+20241002,LavaLending,Price Manipulation,"1 USDC, 125795.6 cUSDC, 0,0067 WBTC, 2.25 WETH (~$130K USD)",arbitrum,2024,price/oracle/rate manipulation
+20240926,OnyxDAO,Fake Market,"4.1M VUSD, 7.35M XCN, 5K DAI, 0.23 WBTC, 50K USDT (>$3.8M USD)",mainnet,2024,governance / key / rugpull
+20240926,Bedrock_DeFi,Swap ETH/BTC 1/1 in mint function,27.83925883 BTC (~$1.7M USD),mainnet,2024,logic / other
+20240924,MARA,price-manipulation,~8.8 WBNB (~5.3K USD),bsc,2024,logic / other
+20240923,Bankroll_Network,Incorrect input validation,~404 WBNB (~234.8K USD),bsc,2024,logic / other
+20240923,PestoToken,Price Manipulation,1.4K,mainnet,2024,price/oracle/rate manipulation
+20240920,DOGGO,Logic Flaw,7K USD,mainnet,2024,logic / other
+20240920,Shezmu,Access Control,4.9M USD,mainnet,2024,access control / missing check
+20240918,Unverified_766a,Access control,100 USD,bsc,2024,access control / missing check
+20240915,WXETA,Logic Flaw,110K,bsc,2024,logic / other
+20240913,Unverified_5697,Access Control,12K,mainnet,2024,access control / missing check
+20240913,OTSeaStaking,Logic Flaw,26k,mainnet,2024,logic / other
+20240912,Unverified_03f9,Access Control,1.7k,mainnet,2024,access control / missing check
+20240911,INUMI,Access control,~11.7k USD,mainnet,2024,access control / missing check
+20240911,INUMI_db27,Access control,~4.7k USD,unmatched,2024,access control / missing check
+20240911,AIRBTC_exp,Access control,~6.8k USD,bsc,2024,access control / missing check
+20240910,Caterpillar_Coin_CUT,Price Manipulation,~1.4M USD,bsc,2024,price/oracle/rate manipulation
+20240905,Unverified_a89f,Access control,1.5k,mainnet,2024,access control / missing check
+20240905,PLN,Access control,400K USD,mainnet,2024,access control / missing check
+20240905,HANAToken,Price Manipulation,283 USD,mainnet,2024,price/oracle/rate manipulation
+20240904,Unverified_16d0,Access control,329 USD,mainnet,2024,access control / missing check
+20240903,Penpiexyz_io,Reentrancy and Reward Manipulation,"11,113.6 ETH (~$27,348,259 USD)",mainnet,2024,reentrancy
+20240902,Pythia,Logic Flaw,21 ETH,mainnet,2024,logic / other
+20240828,Unverified_667d,Access control,$10k,bsc,2024,access control / missing check
+20240828,AAVE,Arbitrary Call Error,52000,unmatched,2024,access control / missing check
+20240820,Coco,Logic flaw,280BNB,bsc,2024,logic / other
+20240816,Zenterest,Price Out Of Date,~21000 USD,mainnet,2024,logic / other
+20240816,OMPx Contract,FlashLoan,4.37 ETH (~11527 USD),mainnet,2024,logic / other
+20240814,YodlRouter,Arbitrary Call,~5k,mainnet,2024,access control / missing check
+20240813,VOW,Misconfiguration,~ 1M USD,mainnet,2024,logic / other
+20240812,iVest,Business logic flaw,~338 WBNB,bsc,2024,logic / other
+20240806,Novax,Price Manipulation,~25K USD,bsc,2024,price/oracle/rate manipulation
+20240801,Convergence,Incorrect input validation,~200K USD,mainnet,2024,logic / other
+20240724,Spectra_finance,Incorrect input validation,~73K USD,mainnet,2024,logic / other
+20240723,MEVbot_0xdd7c,Incorrect input validation,~18k USD,mainnet,2024,logic / other
+20240716,Lifiprotocol,Incorrect input validation,~10M USD,mainnet,2024,logic / other
+20240714,Minterest,Reentrancy,~427 ETH,mantle,2024,reentrancy
+20240712,DoughFina,Incorrect input validation,~1.8M USD,mainnet,2024,logic / other
+20240711,SBT,business logic flaw,~56K USD,bsc,2024,logic / other
+20240711,GAX,Lack of access control,~50K $BUSD,bsc,2024,access control / missing check
+20240708,LW,Integer Underflow,~7K USD,bsc,2024,rounding / precision / math
+20240705,DeFiPlaza,loss of precision,~200K USD,mainnet,2024,rounding / precision / math
+20240703,UnverifiedContr_0x452E25,lack-of-access-control,27 ETH,mainnet,2024,logic / other
+20240702,MRP,Reentrancy,17 BNB,bsc,2024,reentrancy
+20240628,Will,business logic flaw,$52K,bsc,2024,logic / other
+20240627,APEMAGA,business logic flaw,~9 ETH,mainnet,2024,logic / other
+20240618,INcufi,business logic flaw,~59K USD,bsc,2024,logic / other
+20240617,Dyson_money,business logic flaw,52 BNB,bsc,2024,logic / other
+20240616,WIFCOIN_ETH,business logic flaw,~3.4 ETH (WIF token),mainnet,2024,logic / other
+20240616,Crb2,business logic flaw,~15K,bsc,2024,logic / other
+20240611,JokInTheBox,business logic flaw,~9.2 ETH,mainnet,2024,logic / other
+20240610,UwULend,Price Manipulation,19.3M,unmatched,2024,price/oracle/rate manipulation
+20240610,Bazaar,Insufficient Permission Check,1.4M,blast,2024,access control / missing check
+20240608,YYStoken,Business Logic Flaw,$28K,unmatched,2024,logic / other
+20240606,SteamSwap,Logic Flaw,~$91k,bsc,2024,logic / other
+20240606,MineSTM,Business Logic Flaw,$13.8K,bsc,2024,logic / other
+20240604,NCD,Business Logic Flaw,$6.4K,bsc,2024,logic / other
+20240601,VeloCore,lack-of-access-control,$6.88M,linea,2024,logic / other
+20240531,Liquiditytokens,Business Logic Flaw,~200K USD,bsc,2024,logic / other
+20240531,MixedSwapRouter,Arbitrary Call,>10700USD(WINR token),arbitrum,2024,access control / missing check
+20240529,SCROLL,Integer Underflow,76 ETH,mainnet,2024,rounding / precision / math
+20240529,MetaDragon,Lack of Access Control,~ $180k,bsc,2024,access control / missing check
+20240528,Tradeonorion,Business Logic Flaw,~645K,bsc,2024,logic / other
+20240528,EXcommunity,Business Logic Flaw,33BNB,bsc,2024,logic / other
+20240527,RedKeysCoin,Weak RNG,$12K,bsc,2024,logic / other
+20240526,NORMIE,Business Logic Flaw,$490K,base,2024,logic / other
+20240522,Burner,sandwich ack,1.7 eth,mainnet,2024,logic / other
+20240516,TCH,Signature Malleability Vulnerability,$18K,bsc,2024,access control / missing check
+20240514,Sonne Finance,Precision loss,$20M,unmatched,2024,rounding / precision / math
+20240514,PredyFinance,Reentrancy,$464K,arbitrum,2024,reentrancy
+20240512,TGC,Business Logic Flaw,$32K,bsc,2024,logic / other
+20240510,GFOX,lack of access control,330K USD,mainnet,2024,access control / missing check
+20240510,TSURU,Insufficient Validation,140K,base,2024,logic / other
+20240508,GPU,self transfer,~32K USD,bsc,2024,logic / other
+20240507,SATURN,Price Manipulation,~15 BNB,bsc,2024,price/oracle/rate manipulation
+20240506,OSN,Reward Distribution Problem,~109K USD,bsc,2024,logic / other
+20240430,Yield,Business Logic Flaw,181K,arbitrum,2024,logic / other
+20240430,PikeFinance,Uninitialized Proxy,1.4M,mainnet,2024,access control / missing check
+20240427,BNBX,precission loss,~75 $BNB,bsc,2024,logic / other
+20240425,NGFS,Bad Access Control,~190K,bsc,2024,access control / missing check
+20240424,XBridge,Logic Flaw,">200k USD(plus a lot of STC, SRLTY, Mazi tokens)",mainnet,2024,logic / other
+20240424,YIEDL,Input Validation,150k USD,bsc,2024,logic / other
+20240422,Z123,price manipulation,136k USD,bsc,2024,price/oracle/rate manipulation
+20240420,Rico,Arbitrary Call,36K,arbitrum,2024,access control / missing check
+20240419,HedgeyFinance,Logic Flaw,48M USD,mainnet,2024,logic / other
+20240417,UnverifiedContr_0x00C409,unverified external call,~ 18 eth,mainnet,2024,logic / other
+20240416,SATX,Logic Flaw,~ 50 BNB,bsc,2024,logic / other
+20240416,MARS,Bad Reflection,>100K,bsc,2024,logic / other
+20240415,GFA,business-logic-flaw,~14K USD,bsc,2024,logic / other
+20240415,ChaingeFinance,Arbitrary External Call,~560K,bsc,2024,access control / missing check
+20240414,Hackathon,business logic flaw,~20K,bsc,2024,logic / other
+20240412,FIL314,Insufficient Validation And Price Manipulation,~14 BNB,bsc,2024,price/oracle/rate manipulation
+20240412,SumerMoney,Reentrancy,350K,base,2024,reentrancy
+20240412,GROKD,lack of access control,$~150 BNB,bsc,2024,access control / missing check
+20240410,BigBangSwap,precission loss,$~5K $BUSD,bsc,2024,logic / other
+20240409,UPS,business logic flaw,$~28K USD,bsc,2024,logic / other
+20240408,SQUID,sandwich attack,$~87K USD,bsc,2024,logic / other
+20240404,wsm,manipulating price,$~18K USD,bsc,2024,logic / other
+20240402,HoppyFrogERC,business logic flaw,~0.3 ETH,mainnet,2024,logic / other
+20240401,ATM,business logic flaw,$~182K USD,bsc,2024,logic / other
+20240401,OpenLeverage,business logic flaw,~234K,bsc,2024,logic / other
+20240329,ETHFIN,lack of access control,~$1.24K (2.13 BNB),bsc,2024,access control / missing check
+20240329,PrismaFi,Insufficient Validation,$~11M,mainnet,2024,logic / other
+20240328,LavaLending,Business Logic Flaw,~340K,arbitrum,2024,logic / other
+20240325,ZongZi,Price Manipulation,~223K,bsc,2024,price/oracle/rate manipulation
+20240323,CGT,Incorrect Access Control,996B (CGT token),mainnet,2024,access control / missing check
+20240321,SSS,Token Balance Doubles on Transfer to self,4.8M,blast,2024,logic / other
+20240324,ARK,business logic flaw,~348BNB,bsc,2024,logic / other
+20240320,Paraswap,Incorrect Access Control,~24K,mainnet,2024,access control / missing check
+20240314,MO,business logic flaw,~413k USDT,optimism,2024,logic / other
+20240313,IT,business logic flaw,~13k USDT,bsc,2024,logic / other
+20240312,BBT,business logic flaw,~5.06 ETH,mainnet,2024,logic / other
+20240311,Binemon,precission-loss,~0.2 BNB,bsc,2024,logic / other
+20240309,Juice,Business Logic Flaw,~54 ETH,mainnet,2024,logic / other
+20240309,UnizenIO,unverified external call,~2M,mainnet,2024,logic / other
+20240307,GHT,Business Logic Flaw,~57K,mainnet,2024,logic / other
+20240306,ALP,Public internal function,~10K,bsc,2024,logic / other
+20240306,TGBS,Business Logic Flaw,~150K,bsc,2024,logic / other
+20240305,Woofi,Price Manipulation,~8M,arbitrum,2024,price/oracle/rate manipulation
+20240228,Seneca,Arbitrary External Call Vulnerability,~6M,mainnet,2024,access control / missing check
+20240228,SMOOFSStaking,Reentrancy,Unclear,polygon,2024,reentrancy
+20240223,Zoomer,Business Logic Flaw,~14 ETH,mainnet,2024,logic / other
+20240223,CompoundUni,Oracle bad price,"~439,537 USD",mainnet,2024,price/oracle/rate manipulation
+20240223,BlueberryProtocol,logic flaw,"~1,400,000 USD",mainnet,2024,logic / other
+20240222,SwarmMarkets,lack of validation,~7k $DAI,mainnet,2024,logic / other
+20240221,DeezNutz 404,lack of validation,~170k,mainnet,2024,logic / other
+20240221,GAIN,bad function implementation,~6.4 ETH,mainnet,2024,logic / other
+20240220,EGGX,reentrancy,~2 ETH,mainnet,2024,reentrancy
+20240219,RuggedArt,reentrancy,~10k,mainnet,2024,reentrancy
+20240216,ParticleTrade,lack of validation data,~50k,mainnet,2024,logic / other
+20240215,DualPools,precision truncation,~42k,bsc,2024,rounding / precision / math
+20240215,Babyloogn,lack of validation,~2 $BNB,bsc,2024,logic / other
+20240215,Miner,lack of validation dst address,~150k,mainnet,2024,logic / other
+20240213,MINER,Price Manipulation,~3.5 WBNB,mainnet,2024,price/oracle/rate manipulation
+20240211,Game,Reentrancy && Business Logic Flaw,~20 ETH,mainnet,2024,reentrancy
+20240210,FILX DN404,Access Control,200K,unmatched,2024,access control / missing check
+20240208,Pandora,Integer Underflow,~17K USD,mainnet,2024,rounding / precision / math
+20240205,BurnsDefi,Price Manipulation,~67K,bsc,2024,price/oracle/rate manipulation
+20240202,ADC,incorrect-access-control,~20 eth,mainnet,2024,logic / other
+20240201,AffineDeFi,lack of validation userData,~88K,mainnet,2024,logic / other
+20240130,XSIJ,Business Logic Flaw,~51K USD,bsc,2024,logic / other
+20240130,MIMSpell,Precission Loss,"~6,5M",mainnet,2024,logic / other
+20240129,PeapodsFinance,Reentrancy,~1K $DAI,mainnet,2024,reentrancy
+20240128,BarleyFinance,Reentrancy,~130K,mainnet,2024,reentrancy
+20240127,CitadelFinance,Price Manipulation,~93K,arbitrum,2024,price/oracle/rate manipulation
+20240125,NBLGAME,Reentrancy,~180K,optimism,2024,reentrancy
+20240122,DAO_SoulMate,Incorrect Access Control,~319K,mainnet,2024,access control / missing check
+20240117,BmiZapper,Arbitrary external call vulnerability,~114K,mainnet,2024,access control / missing check
+20240115,Shell_MEV_0xa898,lack of access control,~1K $BUSD,bsc,2024,access control / missing check
+20240112,SocketGateway,Lack of calldata validation,~3.3Million $,mainnet,2024,logic / other
+20240112,WiseLending,Bad HealthFactor Check,~464K,mainnet,2024,logic / other
+20240110,Freedom,lack of access control,74 $WBNB,bsc,2024,access control / missing check
+20240110,LQDX,Unauthorized TransferFrom,unknown,unmatched,2024,access control / missing check
+20240104,Gamma,Price manipulation,~6.3M,arbitrum,2024,price/oracle/rate manipulation
+20240102,MIC,Business Logic Flaw,~500K,bsc,2024,logic / other
+20240102,RadiantCapital,Loss of Precision,"~4,5M",arbitrum,2024,rounding / precision / math
+20240101,OrbitChain,Incorrect input validation,~81M,mainnet,2024,logic / other
+20251201,yETH,Unsafe Math,9M USD,mainnet,2025,rounding / precision / math
+20251110,DRLVaultV3,Price Manipulation,100k USD,mainnet,2025,price/oracle/rate manipulation
+20251104,Moonwell,Faulty Oracle,1M USD,base,2025,price/oracle/rate manipulation
+20251103,BalancerV2,Precision Loss,120M USD,mainnet,2025,rounding / precision / math
+20251020,SharwaFinance,Post Insolvency Check,"146,000 USD",arbitrum,2025,logic / other
+20251007,TokenHolder,Access Control,20 WBNB,bsc,2025,access control / missing check
+20251004,Abracadabra,Logic Flaw,1.8M USD,unmatched,2025,logic / other
+20251004,MIMSpell3,Bypassed Insolvency Check,1.7M USD,mainnet,2025,access control / missing check
+20250918,NGP,Price Manipulation,2M USD,bsc,2025,price/oracle/rate manipulation
+20250913,Kame,Arbitary External Call,18167.8 USD,sei,2025,logic / other
+20250830,EverValueCoin,Arbitrage,100k USD,arbitrum,2025,logic / other
+20250831,Hexotic,Incorrect Input Validation,500 USD,mainnet,2025,logic / other
+20250827,0xf340,Access Control,4k USD,mainnet,2025,access control / missing check
+20250823,EquilibriaEPendle,Reward Accounting Flaw,"62,661.57 USD",mainnet,2025,logic / other
+20250823,ABCCApp,Lack of Access Control,~ $10.1K,bsc,2025,access control / missing check
+20250822,Unverified_6f7a,Access Control,"7,630.46 USD",mainnet,2025,access control / missing check
+20250820,MulticallWithXera,Access Control,17k USD,bsc,2025,access control / missing check
+20250820,0x8d2e,Access Control,40k USDC,base,2025,access control / missing check
+20250819,PresaleV5,Price Manipulation,"9,769.23 USD",mainnet,2025,price/oracle/rate manipulation
+20250817,AutoPooledTradingBot,Business Logic Flaw,0.15198 ETH,mainnet,2025,logic / other
+20250816,unverified,Business Logic Flaw,"3,131.11 DAI",polygon,2025,logic / other
+20250816,d3xai,Price Manipulation,190 BNB,bsc,2025,price/oracle/rate manipulation
+20250815,SizeFlashLoanLooping,Arbitrary External Call,533.05 USD,mainnet,2025,access control / missing check
+20250815,PDZ,Price Manipulation,3.3 BNB,bsc,2025,price/oracle/rate manipulation
+20250815,SizeCredit,Access Control,19.7k USD,mainnet,2025,access control / missing check
+20250813,BeefyZapRouter,Arbitrary External Call,"6,584.95 USD",arbitrum,2025,access control / missing check
+20250813,YuliAI,Price Manipulation,78k USDT,bsc,2025,price/oracle/rate manipulation
+20250813,coinbase,Misconfiguration,300k USD,mainnet,2025,logic / other
+20250813,Grizzifi,Logic Flaw,61k USD,bsc,2025,logic / other
+20250812,BaseBebopSettlement,Arbitrary External Call,"3,875.46 USD",base,2025,access control / missing check
+20250812,Bebop,Arbitrary user input,21k USD,arbitrum,2025,access control / missing check
+20250811,WXC,Incorrect token burn mechanism,37.5 WBNB,unmatched,2025,logic / other
+20250808,ArbitrumBaseSwapper,Business Logic Flaw,"1,847.33 USD",arbitrum,2025,logic / other
+20250805,MyCoinMaster,Business Logic Flaw,653.49 USD,bsc,2025,logic / other
+20250804,BscInitcodeToken,Business Logic Flaw,700.32 USD,bsc,2025,logic / other
+20250801,PendleReflector,Business Logic Flaw,2304.18 USD,arbitrum,2025,logic / other
+20250729,AnyswapWETHPermit,Permit Validation Bypass,200 WETH,mainnet,2025,access control / missing check
+20250728,SuperRare,Access Control,730K USD,mainnet,2025,access control / missing check
+20250728,AvaxBIFKNPair,Flash Swap Accounting,2.4K USD,avalanche,2025,logic / other
+20250726,Unverified670471,Unchecked Flash Loan Callback,"$1,818.33",mainnet,2025,logic / other
+20250726,Unverified6883,Fake Uniswap Callback,"$1,006.89",mainnet,2025,logic / other
+20250726,MulticallWithETH,arbitrary-call,10K USD,bsc,2025,access control / missing check
+20250725,WhereIsMyDragonTreasure,Fixed Reward Redemption,"$47,461.35",mainnet,2025,logic / other
+20250724,SWAPPStaking,Incorrect Reward calculation,"$32,196.28",mainnet,2025,logic / other
+20250724,EmptySetReserve,Fixed Order Swap,"$1,509.78",mainnet,2025,logic / other
+20250721,BoJLeverageMarket,Liquidity Index Manipulation,"$7,227.59 USD",base,2025,logic / other
+20250720,Stepp2p,Logic Flaw,43k USD,bsc,2025,logic / other
+20250717,unverified,Signature Verification,502.42 USDT,polygon,2025,access control / missing check
+20250717,WETC,Incorrect Burn Logic,101k USD,unmatched,2025,logic / other
+20250716,StrategyLlamaLendConvex,Share Price Manipulation,563.12 USDC,mainnet,2025,price/oracle/rate manipulation
+20250716,VDS,Logic Flaw,13k USD,bsc,2025,logic / other
+20250713,UPENG,Incorrect Burn Logic,"$1,035.06",unmatched,2025,logic / other
+20250709,GMX,Share price manipulation,41M USD,arbitrum,2025,price/oracle/rate manipulation
+20250705,ActivePoolScrvUsd,Urgent Redemption,"$4,204.55",unmatched,2025,logic / other
+20250705,Unverified,Access Control,~ $285.7K,polygon,2025,access control / missing check
+20250705,RANT,Logic Flaw,~ $204K,unmatched,2025,logic / other
+20250702,FPC,Logic Flaw,4.7M USDT,bsc,2025,logic / other
+20250702,ActivePoolUrgentRedemption,Urgent Redemption,"2,696.49 USD",mainnet,2025,logic / other
+20250629,Stead,Access Control,14.5k USD,arbitrum,2025,access control / missing check
+20250628,InitcodeFactoryFees,Access Control,"2,383.25 USD",mainnet,2025,access control / missing check
+20250626,ResupplyFi,Share price manipulation,9.6M USD,mainnet,2025,price/oracle/rate manipulation
+20250625,Unverified_b5cb,Access Control,2M USD,bsc,2025,access control / missing check
+20250625,SiloFinance,Arbitrary Call,"500,000+ USD",mainnet,2025,access control / missing check
+20250625,ParaSwapDAIApproval,Stale Approval,"2,298.68 USD",mainnet,2025,access control / missing check
+20250623,GradientMakerPool,Price Oracle Manipulation,5k USD,mainnet,2025,price/oracle/rate manipulation
+20250620,TokenVault,Incorrect dividends calculation,"3,226.51 USD",bsc,2025,logic / other
+20250620,HoldSafe,Price Manipulation,"4,824.96 USD",bsc,2025,price/oracle/rate manipulation
+20250620,Gangsterfinance,Incorrect dividends,16.5k USD,bsc,2025,logic / other
+20250619,SinstakeZombie,Incorrect dividends calculation,705.13 USD,bsc,2025,logic / other
+20250619,BasePricePool,Price Manipulation,802.57 USD,bsc,2025,price/oracle/rate manipulation
+20250619,BankrollStack,Incorrect dividends calculation,5k USD,bsc,2025,logic / other
+20250619,BankrollNetwork,Incorrect dividends calculation,24.5 WBNB,bsc,2025,logic / other
+20250618,BankrollStackPlus,Incorrect dividends calculation,"12,234.48 USD",mainnet,2025,logic / other
+20250617,MetaPool,Infinite Mint via unvalidated ERC4626 mint,25k USD,mainnet,2025,logic / other
+20250615,WaleCoin,Access Control,918.83 USD,bsc,2025,access control / missing check
+20250615,FixedTokenBSwap,Price Oracle Manipulation,2.2K USD,mainnet,2025,price/oracle/rate manipulation
+20250614,TSAggregatorGeneric,Business Logic Flaw,1300 USD,bsc,2025,logic / other
+20250612,AAVEBoost,Logic Flaw,14.8K USD,mainnet,2025,logic / other
+20250610,Unverified_8490,Access Control,48.3K USD,bsc,2025,access control / missing check
+20250609,BitCrown,Access Control,7939.27 USD,bsc,2025,access control / missing check
+20250608,TokenFactory,Business Logic Flaw,657.17 USD,bsc,2025,logic / other
+20250603,PegaBall,Business Logic Flaw,1512.85 USD,mainnet,2025,logic / other
+20250531,DogeAlliance,Price Manipulation,990.33 USD,bsc,2025,price/oracle/rate manipulation
+20250528,Corkprotocol,Access Control,12M USD,mainnet,2025,access control / missing check
+20250528,Unverified_91a1,Access Control,551.22 USD,base,2025,access control / missing check
+20250527,UsualMoney,Arbitrage,43k USD,mainnet,2025,logic / other
+20250526,YDT,Logic Flaw,41k USD,unmatched,2025,logic / other
+20250525,Unverified_0000,Access Control,"5,658.46 USD",bsc,2025,access control / missing check
+20250525,Dumbo,Business Logic Flaw,628.45 BUSD,bsc,2025,logic / other
+20250524,RICE,Lack of Access Control,~ $88.1K,base,2025,access control / missing check
+20250520,IRYSAI,rug pull,69.6K USD,bsc,2025,governance / key / rugpull
+20250519,BetaPresale,Access Control,1.921686798824852706 WBNB and 46.474821659738262175 BUSD,bsc,2025,access control / missing check
+20250518,KRC,deflationary token,7k USD,unmatched,2025,logic / other
+20250516,Bitallx,Payout Amount Mismatch,"2,029.47 USDT",bsc,2025,logic / other
+20250514,Unwarp,lack-of-access-control,9K USD,base,2025,logic / other
+20250511,MBUToken,Price Manipulation not confirmed,~2.16 M BUSD,bsc,2025,price/oracle/rate manipulation
+20250509,Nalakuvara_LotteryTicket50,Price Manipulation,~ 105.5K USD,base,2025,price/oracle/rate manipulation
+20250506,Crosswise,Trusted Forwarder Spoof,4.16 WBNB,bsc,2025,access control / missing check
+20250429,FlyLong,Balance Forgery,1.73 BNB,bsc,2025,logic / other
+20250428,tcdp,Broken transferFrom Allowance Check,2.02 ETH,mainnet,2025,logic / other
+20250427,bitdog,Access Control,2.10 BNB,bsc,2025,access control / missing check
+20250427,multitransferswap,Business Logic Flaw,0.34 ETH,mainnet,2025,logic / other
+20250427,AventaRewardClaim,Claim Accounting,"16,019,528 AVENTA",mainnet,2025,logic / other
+20250426,Lifeprotocol,Price Manipulation,15114 BUSD,bsc,2025,price/oracle/rate manipulation
+20250426,ImpermaxV3,FlashLoan Price Oracle Manipulation,"62,628.66 USD",base,2025,price/oracle/rate manipulation
+20250418,BTNFT,Claim Rewards Without Protection,19025.9193312786235214 BUSD,bsc,2025,logic / other
+20250416,YVToken,Not Slippage Protection,15261.68240413121964707 BUSD,bsc,2025,logic / other
+20250416,Roar,Rug Pull,$777k,mainnet,2025,governance / key / rugpull
+20250411,Unverified 0x6077,Lack of Access Control,~ $62.3K,base,2025,access control / missing check
+20250408,Laundromat,Logic Flaw,1.5K USD,mainnet,2025,logic / other
+20250407,AmpKashi,AMP Collateral Borrow Price Manipulation,$572.31,mainnet,2025,price/oracle/rate manipulation
+20250404,AIRWA,Access Control,$33.6K,bsc,2025,access control / missing check
+20250330,LeverageSIR,Storage SLOT1 collision,"~ 353.8 K (17814,86 USDC, 1,4085 WBTC, 119,87 WETH)",mainnet,2025,logic / other
+20250328,Alkimiya_IO,unsafecast,~ 95.5 K (1.14015390 WBTC),mainnet,2025,logic / other
+20250327,YziAI,Rug Pull,~ $239.4K,unmatched,2025,governance / key / rugpull
+20250320,BBXToken,Price Manipulation,11902 BUSD,bsc,2025,price/oracle/rate manipulation
+20250318,DCFToken,Lack of Slippage Protection,~442k,bsc,2025,logic / other
+20250318,unverified,Business Logic Flaw,0.40 WAVAX,base,2025,logic / other
+20250316,wKeyDAO,unprotected function,"737,000",bsc,2025,access control / missing check
+20250314,H2O,Weak Random Mint,22470 USD,bsc,2025,logic / other
+20250311,ZeroExSettler,Arbitrary External Call,"3,008 USDT",mainnet,2025,access control / missing check
+20250311,DUCKVADER,Free Mint Bug,~ $9.6K,base,2025,logic / other
+20250307,StackMarket,Business Logic Flaw,0.56 WETH,base,2025,logic / other
+20250307,UNI,Logic Flaw,~ $14K,mainnet,2025,logic / other
+20250307,SBR Token,Price Manipulation,~ $18.4K,mainnet,2025,price/oracle/rate manipulation
+20250306,unverified,Business Logic Flaw,980.32 USDC,base,2025,logic / other
+20250306,RnsPay,Arbitrary External Call,1050 USDC,mainnet,2025,access control / missing check
+20250306,PTM,Business Logic Flaw,552.63 USDT,bsc,2025,logic / other
+20250305,1inch FusionV1 Settlement,Arbitrary Yul Calldata,4.5M,mainnet,2025,access control / missing check
+20250304,Pump,Not Slippage Protection,~ $6.4K,bsc,2025,logic / other
+20250227,Venus_ZKSync,Donation Attack,86.72 WETH,zksync,2025,price/oracle/rate manipulation
+20250226,HenloKart,Fake Native Deposit And Immediate Cancel,0.59 ETH,base,2025,logic / other
+20250224,INVISTECH,Pair Tax Price Manipulation,5.14 WBNB,bsc,2025,price/oracle/rate manipulation
+20250223,HegicOptions,Business Logic Flaw,~104M,mainnet,2025,logic / other
+20250222,Unverified_35bc,Reentrancy,,bsc,2025,reentrancy
+20250221,StepHeroNFTs,Reentrancy On Sell NFT,,bsc,2025,reentrancy
+20250221,Bybit,Phishing attack,1.5B,mainnet,2025,governance / key / rugpull
+20250215,unverified_d4f1,access-control,~15.2k,bsc,2025,logic / other
+20250211,FourMeme,Logic Flaw,~186k,unknown,2025,logic / other
+20250211,Scorch,Price Oracle Manipulation,0.14 ETH,mainnet,2025,price/oracle/rate manipulation
+20250211,LimitOrderProtocol,Access Control,2800000 BRAINS,base,2025,access control / missing check
+20250208,Peapods Finance,Price Manipulation,"~ $3,500",mainnet,2025,price/oracle/rate manipulation
+20250208,GMT7,Access Control,16.75 BNB,bsc,2025,access control / missing check
+20250201,GoldReserve,Business Logic Flaw,12.74 BNB,bsc,2025,logic / other
+20250128,MCAI,Tax wallet allowance bypass,12.03 WETH,mainnet,2025,access control / missing check
+20250126,AIXBTForcedSwap,Hardcoded Auth Key,"13,597.36 USDC",base,2025,logic / other
+20250123,ODOS,invalid-signature-verification,~50k,base,2025,access control / missing check
+20250121,Ast,Price-Manipulation,~65K,bsc,2025,logic / other
+20250118,Paribus,Bad oracle,~86k,arbitrum,2025,price/oracle/rate manipulation
+20250114,IdolsNFT,Logic Flaw,97 stETH,mainnet,2025,logic / other
+20250113,Mosca2,Logic Flaw,37.6K,bsc,2025,logic / other
+20250112,Unilend,Logic Flaw,60 stETH,mainnet,2025,logic / other
+20250111,RoulettePotV2,Price Manipulation,~28K,bsc,2025,price/oracle/rate manipulation
+20250110,JPulsepot,Logic Flaw,21.5K,bsc,2025,logic / other
+20250108,HORS,Access Control,14.8 WBNB,bsc,2025,access control / missing check
+20250108,LPMine,Incorrect reward calculation,~24k USDT,bsc,2025,logic / other
+20250107,IPC Incorrect burn pairs,Logic Flaw,～590k USDT,unmatched,2025,logic / other
+20250106,Mosca,Logic Flaw,19K,bsc,2025,logic / other
+20250104,SorStaking,Incorrect reward calculation,～8 ETH,mainnet,2025,logic / other
+20250104,98Token,Unprotected public function,28K USDT,bsc,2025,access control / missing check
+20250101,LAURAToken,Pair Balance Manipulation,12.34 ETH (~$41.2K USD),mainnet,2025,logic / other

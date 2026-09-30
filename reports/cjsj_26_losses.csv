@@ -1,0 +1,25 @@
+incident,category,verified_M,raw,usd,source,T_block
+Harvest Finance,M,True,(no figure in README/PoC),24000000.0,CoinDesk 2020-10-26: ~$24M drained,11129474
+Cream Finance,M,True,(no figure in README/PoC),130000000.0,The Register 2021-10-28: ~$130M,13499798
+Indexed Finance,A,False,(no figure in README/PoC),16000000.0,PeckShield via BeInCrypto: ~$16M,13417949
+Inverse Finance,M,True,(no figure in README/PoC),5830000.0,BlockSec: net protocol loss $5.83M (attacker gain $1.2M),14972419
+UwU Lend,M,True,19.3M,19300000.0,"README (UwULend, 20240610)",20061319
+MonoX Finance,A,False,(no figure in README/PoC),31000000.0,SlowMist/MonoX post-mortem: ~$31M,13715026
+MEVBOTa47b,K,False,~187.75 WETH,241467.55571002248,"README (MEVBOTa47b, 20221014)",15741333
+Conic Finance 02,O,False,~$934K,934000.0,"README (Conic Finance 02, 20230722)",17743470
+ZunamiProtocol,M,True,~$2M,2000000.0,"README (ZunamiProtocol, 20230814)",17908950
+CompoundUni,M,False,"~439,537 USD",439537.0,"README (CompoundUni, 20240223)",19290921
+CurveLlamaLend,M,True,"~240,000 US$",240000.0,"README (Curve LlamaLend, 20260302)",24566937
+ResupplyFi,M,True,9.6M USD,9600000.0,"README (ResupplyFi, 20250626)",22785461
+BalancerV2,R,False,120M USD,120000000.0,"README (BalancerV2, 20251103)",23717397
+Makina,M,True,5.1M USD,5100000.0,"README (Makina, 20260120)",24273362
+TOPBPool,K,False,944.20 WETH,1587514.835766,"README (TOPBPool, 20260609)",25279892
+WiseLending,O,False,~$260K,260000.0,"README (WiseLending, 20231013)",18342121
+BalancerV1BPool,R,False,"~$110,839 for this DPI/USDC/WETH/WBTC pool (~$234K aggregate across all 5 vulnerable pools)",110839.0,"README (BalancerV1BPool, 20260831)",25872274
+AjnaFinance,A,False,"~$124.8K for this cbETH pool (1 of 7 pools hit by the same bug the same day, ~$775K aggregate)",124800.0,"README (AjnaFinance, 20260828)",25854888
+BalancerBoostedPool2023,M,True,~$2M,2000000.0,"README (Balancer, 20230827)",18004652
+DRLVaultV3,M,False,100k USD,100000.0,"README (DRLVaultV3, 20251110)",23769387
+EFLeverVault,A,False,750 ETH,994796.0788499999,"README (EFLeverVault, 20221014)",15746342
+SecuredFi,M,False,~0.9 WBTC (~$72K single-drain; ~$104K across all actors exploiting the same public bug),72000.0,"README (SecuredFi, 20260905)",25914192
+ThetanutsIndexVault,A,False,105471.50 USDC,105471.5,"README (Thetanuts, 20260615)",25323329
+USM,R,False,~70.83 ETH,135813.91423311539,"README (USM, 20260809)",25716150

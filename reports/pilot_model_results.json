@@ -1,0 +1,234 @@
+{
+ "n_rows_in_analysis": 38,
+ "n_pos": 3,
+ "n_neg": 35,
+ "label": "pilot, underpowered per A10",
+ "models": {
+  "eth_context_control|logit": {
+   "auc": 0.5047619047619047,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.15905527167513822,
+    0.8504685378486713
+   ],
+   "boot_ci95": [
+    0.0,
+    0.8571428571428572
+   ],
+   "hm_upper_one_sided95": 0.794908543245441,
+   "boot_upper_one_sided95": 0.8285714285714286,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "eth_ret_300",
+    "eth_vol_300",
+    "eth_gas_util_300",
+    "eth_gas_util_T",
+    "eth_absret_T",
+    "eth_absret_50",
+    "eth_cl_stale_a"
+   ],
+   "perm_null_auc_mean": 0.39466666666666667,
+   "perm_null_auc_p95": 0.7719047619047621,
+   "perm_p_one_sided": 0.3654485049833887
+  },
+  "eth_context_control|rf": {
+   "auc": 0.3761904761904762,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.06800163897562062,
+    0.6843793134053318
+   ],
+   "boot_ci95": [
+    0.06642857142857146,
+    0.8571428571428571
+   ],
+   "hm_upper_one_sided95": 0.63484896456723,
+   "boot_upper_one_sided95": 0.7047619047619047,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "eth_ret_300",
+    "eth_vol_300",
+    "eth_gas_util_300",
+    "eth_gas_util_T",
+    "eth_absret_T",
+    "eth_absret_50",
+    "eth_cl_stale_a"
+   ]
+  },
+  "price_path_model(P2,P3,D1,D5)|logit": {
+   "auc": 0.47619047619047616,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.1363511016649553,
+    0.8160298507159971
+   ],
+   "boot_ci95": [
+    0.0,
+    1.0
+   ],
+   "hm_upper_one_sided95": 0.7614128083815384,
+   "boot_upper_one_sided95": 0.8476190476190476,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "P2",
+    "P3",
+    "D1",
+    "D5"
+   ]
+  },
+  "price_path_model(P2,P3,D1,D5)|rf": {
+   "auc": 0.7571428571428571,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.428636064244909,
+    1.0
+   ],
+   "boot_ci95": [
+    0.37142857142857144,
+    1.0
+   ],
+   "hm_upper_one_sided95": 1.0,
+   "boot_upper_one_sided95": 1.0,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "P2",
+    "P3",
+    "D1",
+    "D5"
+   ]
+  },
+  "full_pilot_features(P1-3,D1,D2,D3,D5)|logit": {
+   "auc": 0.5619047619047619,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.2088350633564457,
+    0.9149744604530781
+   ],
+   "boot_ci95": [
+    0.08571428571428574,
+    1.0
+   ],
+   "hm_upper_one_sided95": 0.8582311160435273,
+   "boot_upper_one_sided95": 0.9238095238095239,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "P1",
+    "P2",
+    "P3",
+    "D1",
+    "D2",
+    "D3",
+    "D5"
+   ]
+  },
+  "full_pilot_features(P1-3,D1,D2,D3,D5)|rf": {
+   "auc": 0.7,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.3553348112911715,
+    1.0
+   ],
+   "boot_ci95": [
+    0.2571428571428571,
+    0.9952380952380951
+   ],
+   "hm_upper_one_sided95": 0.9892725690949096,
+   "boot_upper_one_sided95": 0.9809523809523809,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "P1",
+    "P2",
+    "P3",
+    "D1",
+    "D2",
+    "D3",
+    "D5"
+   ]
+  },
+  "price_path_no_D5(P2,P3,D1)|logit": {
+   "auc": 0.6190476190476191,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.2647110111829329,
+    0.9733842269123052
+   ],
+   "boot_ci95": [
+    0.2761904761904762,
+    1.0
+   ],
+   "hm_upper_one_sided95": 0.9164372720769093,
+   "boot_upper_one_sided95": 0.8857142857142858,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "P2",
+    "P3",
+    "D1"
+   ]
+  },
+  "price_path_no_D5(P2,P3,D1)|rf": {
+   "auc": 0.8142857142857143,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.5114728629105232,
+    1.0
+   ],
+   "boot_ci95": [
+    0.5619047619047619,
+    1.0
+   ],
+   "hm_upper_one_sided95": 1.0,
+   "boot_upper_one_sided95": 0.980952380952381,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "P2",
+    "P3",
+    "D1"
+   ]
+  },
+  "S_type_only_control|logit": {
+   "auc": 0.0,
+   "n_pos": 3,
+   "n_neg": 35,
+   "hm_ci95": [
+    0.0,
+    0.04364653125089886
+   ],
+   "boot_ci95": [
+    0.0,
+    0.0
+   ],
+   "hm_upper_one_sided95": 0.0366319101570044,
+   "boot_upper_one_sided95": 0.0,
+   "se_null": 0.1759328876372492,
+   "mde_auc_at_this_n": 0.8942590401456321,
+   "label": "pilot, underpowered per A10",
+   "features": [
+    "S_type onehot"
+   ]
+  }
+ }
+}

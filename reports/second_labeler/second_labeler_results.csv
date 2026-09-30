@@ -1,0 +1,25 @@
+n,incident_id,category,math_enabled,sources
+1,Indexed Finance,M,N,BlockSec; Indexed Finance Medium
+2,WiseLending,A,N,Code4rena; BlockSec
+3,AjnaFinance,R,N,Cryptotimes; Bitget
+4,MonoX Finance,A,N,SlowMist; ImmuneBytes
+5,Inverse Finance,M,N,BlockSec; Halborn
+6,CurveLlamaLend,M,N,LlamaRisk; Curve Governance
+7,ZunamiProtocol,M,N,CertiK; Halborn
+8,BalancerBoostedPool2023,R,N,BlockSec; SlowMist
+9,MEVBOTa47b,K,N,BlockSec Twitter; Ancilia Inc
+10,USM,M,N,Nominis Insights
+11,SecuredFi,A,N,Crypto.training
+12,UwU Lend,M,N,SlowMist; QuillAudits
+13,ThetanutsIndexVault,A,N,DarkNavy; Cryptopolitan
+14,ResupplyFi,M,N,Halborn; Ackee XYZ
+15,DRLVaultV3,R,N,Verichains Blog
+16,Cream Finance,M,N,Immunefi; Inspex Co
+17,Harvest Finance,M,N,SlowMist; Rekt.news
+18,Makina,A,N,CertiK; Verichains
+19,BalancerV1BPool,R,N,Bitcoin.com; Blockfence
+20,CompoundUni,M,N,DeFiHackLabs; 0xLEVI104
+21,Conic Finance 02,A,N,CertiK; Halborn
+22,EFLeverVault,A,N,Web3IsGoingGreat; Crypto.news
+23,BalancerV2,R,N,OpenZeppelin; Checkpoint Research
+24,TOPBPool,K,N,Crypto.news; BeInCrypto
